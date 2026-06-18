@@ -60,6 +60,11 @@ launchd 자동 push는 이미 설정돼 있으니(`SETUP.md` 참고), 아래 **V
 - **빌드가 실패해요.** Vercel 프로젝트 → **Deployments** 에서 실패한 빌드를 클릭하면
   로그를 볼 수 있습니다. 보통 `package.json` 의존성 문제이며, 이 repo는 로컬 빌드로
   검증돼 있어 기본 설정 그대로면 통과합니다.
+- **`No Output Directory named "public" found` 에러.** Vercel이 프로젝트를 Next.js가 아닌
+  정적 사이트로 인식했을 때 납니다. repo의 `vercel.json` 에 `"framework": "nextjs"` 가 있어
+  보통 자동 해결되지만, 그래도 나면 Vercel 프로젝트 → **Settings → Build & Deployment** 에서
+  **Framework Preset 을 `Next.js`** 로 바꾸고, **Output Directory** 에 수동 설정(`public` 등)이
+  있으면 **Override 를 꺼서 비우세요.**
 - **리포트가 안 바뀌어요.** ① GitHub repo에 최신 `.md` 가 올라갔는지, ② Vercel
   Deployments에 새 빌드가 생겼는지 순서대로 확인하세요. launchd push가 안 됐다면
   웹페이지도 갱신되지 않습니다(`scripts/push.log` 확인).
