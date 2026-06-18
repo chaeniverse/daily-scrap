@@ -1,0 +1,267 @@
+:root {
+  --bg: #ffffff;
+  --bg-soft: #f7f8fa;
+  --text: #1a1d23;
+  --text-soft: #5b6470;
+  --border: #e6e8ec;
+  --accent: #1f6feb;
+  --accent-soft: #eaf1ff;
+  --radius: 14px;
+  --maxw: 820px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Segoe UI", Roboto, "Noto Sans KR", "Malgun Gothic", sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ── Header / Footer ── */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: saturate(180%) blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+  font-size: 16px;
+}
+.brand-mark {
+  font-size: 18px;
+}
+.repo-link {
+  color: var(--text-soft);
+  text-decoration: none;
+  font-size: 14px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.repo-link:hover {
+  color: var(--text);
+  border-color: var(--text-soft);
+}
+.site-footer {
+  margin-top: 64px;
+  padding: 28px 0;
+  border-top: 1px solid var(--border);
+  color: var(--text-soft);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* ── Home ── */
+.page-intro {
+  padding: 36px 0 10px;
+}
+.page-intro h1 {
+  font-size: 26px;
+  margin: 0 0 6px;
+  letter-spacing: -0.02em;
+}
+.page-intro p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.latest-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 4px 11px;
+  margin-bottom: 14px;
+}
+
+.archive {
+  margin: 16px 0 0;
+}
+.archive h2 {
+  font-size: 15px;
+  color: var(--text-soft);
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+.archive-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.archive-item a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  background: var(--bg-soft);
+  transition: border-color 0.15s, transform 0.15s;
+}
+.archive-item a:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.archive-item .ai-title {
+  font-weight: 600;
+}
+.archive-item .ai-date {
+  color: var(--text-soft);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 28px 0 4px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* ── Markdown body ── */
+.markdown {
+  padding: 8px 0 4px;
+}
+.markdown h1 {
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  margin: 8px 0 8px;
+}
+.markdown h2 {
+  font-size: 21px;
+  margin: 40px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: -0.01em;
+}
+.markdown h3 {
+  font-size: 17px;
+  margin: 26px 0 8px;
+}
+.markdown p {
+  margin: 12px 0;
+}
+.markdown a {
+  color: var(--accent);
+  text-decoration: none;
+  word-break: break-all;
+}
+.markdown a:hover {
+  text-decoration: underline;
+}
+.markdown ul,
+.markdown ol {
+  padding-left: 22px;
+  margin: 12px 0;
+}
+.markdown li {
+  margin: 6px 0;
+}
+.markdown strong {
+  font-weight: 700;
+}
+.markdown hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 32px 0;
+}
+.markdown blockquote {
+  margin: 18px 0;
+  padding: 14px 18px;
+  background: #fff8e6;
+  border: 1px solid #f0e2b8;
+  border-left: 4px solid #e6b800;
+  border-radius: 10px;
+  color: #5a4b18;
+}
+.markdown blockquote p {
+  margin: 6px 0;
+}
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  font-size: 14.5px;
+  display: block;
+  overflow-x: auto;
+}
+.markdown th,
+.markdown td {
+  border: 1px solid var(--border);
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+.markdown thead th {
+  background: var(--bg-soft);
+  font-weight: 700;
+}
+.markdown tbody tr:nth-child(even) {
+  background: #fbfcfd;
+}
+.markdown code {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 0.9em;
+}
+.markdown em {
+  color: var(--text-soft);
+}
+
+@media (max-width: 600px) {
+  .page-intro h1 {
+    font-size: 22px;
+  }
+  .markdown h1 {
+    font-size: 23px;
+  }
+  .markdown h2 {
+    font-size: 19px;
+  }
+}
