@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="container">
             <a className="brand" href="/">
-              <span className="brand-mark">📈</span>
+              <span className="brand-mark">💰</span>
               <span className="brand-text">채를 위한 투자 브리핑</span>
             </a>
             <a className="repo-link" href="https://github.com/chaeniverse/stock-plan" target="_blank" rel="noreferrer">
