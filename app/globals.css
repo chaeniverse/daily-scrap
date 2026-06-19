@@ -109,6 +109,53 @@ body {
   margin-bottom: 14px;
 }
 
+/* ── 날짜 선택 드롭다운 ── */
+.date-selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.ds-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+.ds-control {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.ds-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 5px 28px 5px 12px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.ds-select:hover {
+  border-color: var(--accent);
+}
+.ds-select:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+}
+.ds-caret {
+  position: absolute;
+  right: 11px;
+  font-size: 10px;
+  color: var(--accent);
+  pointer-events: none;
+}
+
 .archive {
   margin: 16px 0 0;
 }

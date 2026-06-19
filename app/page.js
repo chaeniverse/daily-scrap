@@ -1,5 +1,6 @@
 import { getAllReports } from "../lib/reports";
 import Markdown from "./_components/Markdown";
+import DateSelector from "./_components/DateSelector";
 
 export const dynamic = "force-static";
 
@@ -16,11 +17,16 @@ export default function Home() {
   }
 
   const [latest, ...rest] = reports;
+  const dateList = reports.map((r) => ({ slug: r.slug, displayDate: r.displayDate }));
 
   return (
     <>
       <section className="page-intro">
-        <span className="latest-badge">최신 리포트 · {latest.displayDate}</span>
+        <DateSelector
+          reports={dateList}
+          currentSlug={latest.slug}
+          latestSlug={latest.slug}
+        />
       </section>
 
       <article>
