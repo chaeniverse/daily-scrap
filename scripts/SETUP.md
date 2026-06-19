@@ -1,7 +1,7 @@
 # stock-plan 자동 push 설정 가이드 (mac)
 
-매일 오전 7시에 Cowork가 리포트 HTML을 `stock-report/`에 생성하고,
-7시 15분에 mac의 launchd가 자동으로 commit + push 합니다.
+매일 오전 7시에 Cowork가 리포트를 `stock-report/`에 생성하고,
+10시에 mac의 launchd가 자동으로 commit + push 합니다.
 
 ---
 
@@ -70,5 +70,5 @@ git remote set-url origin git@github.com:chaeniverse/stock-plan.git
 
 ## 파일 설명
 - `auto-push.sh` : 변경분을 commit 후 push. 수동/자동 모두 사용.
-- `com.chaeniverse.stockplan-push.plist` : 매일 07:15 자동 실행 정의.
+- `com.chaeniverse.stockplan-push.plist` : 매일 10:00 자동 실행 정의.
 - `push.log` / `launchd.*.log` : 실행 기록(자동 생성).

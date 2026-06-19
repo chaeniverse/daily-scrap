@@ -11,13 +11,13 @@
         <string>/Users/chaehyun/Documents/GitHub/stock-plan/scripts/auto-push.sh</string>
     </array>
 
-    <!-- 매일 오전 7시 15분 실행 (리포트 생성 7시 이후) -->
+    <!-- 매일 오전 10시 정각 실행 -->
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>7</integer>
+        <integer>10</integer>
         <key>Minute</key>
-        <integer>15</integer>
+        <integer>0</integer>
     </dict>
 
     <key>StandardOutPath</key>
