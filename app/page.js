@@ -15,14 +15,7 @@ const TILES = [
     href: "/guide",
     emoji: "📚",
     title: "금융상품 가이드",
-    subtitle: "펀드·ETF·연금·ELS 등 쉽게 정리",
-  },
-  {
-    key: "관전 포인트",
-    href: "/watch",
-    emoji: "📊",
-    title: "관전 포인트",
-    subtitle: "오늘 주목 종목 · 강세 요인과 리스크",
+    subtitle: "펀드·ETF·시장지표·코인 등 쉽게 정리",
   },
 ];
 
