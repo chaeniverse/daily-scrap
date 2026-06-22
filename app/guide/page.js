@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getAllGuides } from "../../lib/guides";
 
 export const dynamic = "force-static";
@@ -18,15 +17,20 @@ export default function GuideIndex() {
         <p>주제별로 나눠 정리한 투자 기초 가이드입니다.</p>
       </section>
 
-      <div className="tile-grid">
-        {guides.map((g) => (
-          <Link className="tile" href={`/guide/${g.slug}`} key={g.slug}>
-            <span className="tile-emoji">{g.emoji}</span>
-            <span className="tile-title">{g.title}</span>
-            <span className="tile-sub">{g.subtitle}</span>
-          </Link>
-        ))}
-      </div>
+      <section className="archive">
+        <ul className="archive-list">
+          {guides.map((g) => (
+            <li className="archive-item" key={g.slug}>
+              <a href={`/guide/${g.slug}`}>
+                <span className="ai-title">
+                  {g.emoji} {g.title}
+                </span>
+                <span className="ai-date">{g.subtitle}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
     </>
   );
 }
