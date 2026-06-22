@@ -1,53 +1,48 @@
-import { getAllReports } from "../lib/reports";
-import Markdown from "./_components/Markdown";
-import DateSelector from "./_components/DateSelector";
+import Link from "next/link";
 
 export const dynamic = "force-static";
 
+const TILES = [
+  {
+    key: "투자 브리핑",
+    href: "/briefing",
+    emoji: "📈",
+    title: "투자 브리핑",
+    subtitle: "매일 갱신 · 테크/AI·증시 + 포트폴리오",
+  },
+  {
+    key: "금융상품 가이드",
+    href: "/guide",
+    emoji: "📚",
+    title: "금융상품 가이드",
+    subtitle: "펀드·ETF·연금·ELS 등 쉽게 정리",
+  },
+  {
+    key: "관전 포인트",
+    href: "/watch",
+    emoji: "📊",
+    title: "관전 포인트",
+    subtitle: "오늘 주목 종목 · 강세 요인과 리스크",
+  },
+];
+
 export default function Home() {
-  const reports = getAllReports();
-
-  if (reports.length === 0) {
-    return (
-      <section className="page-intro">
-        <h1>아직 리포트가 없습니다</h1>
-        <p>매일 오전 자동으로 생성된 투자 브리핑이 이곳에 표시됩니다.</p>
-      </section>
-    );
-  }
-
-  const [latest, ...rest] = reports;
-  const dateList = reports.map((r) => ({ slug: r.slug, displayDate: r.displayDate }));
-
   return (
     <>
-      <section className="page-intro">
-        <DateSelector
-          reports={dateList}
-          currentSlug={latest.slug}
-          latestSlug={latest.slug}
-        />
+      <section className="home-intro">
+        <h1>💰 채를 위한 투자 공간</h1>
+        <p>매일 갱신되는 브리핑과 금융상품 기초 가이드</p>
       </section>
 
-      <article>
-        <Markdown>{latest.content}</Markdown>
-      </article>
-
-      {rest.length > 0 && (
-        <section className="archive">
-          <h2>지난 리포트</h2>
-          <ul className="archive-list">
-            {rest.map((r) => (
-              <li className="archive-item" key={r.slug}>
-                <a href={`/report/${r.slug}`}>
-                  <span className="ai-title">{r.title}</span>
-                  <span className="ai-date">{r.displayDate}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <div className="tile-grid two">
+        {TILES.map((t) => (
+          <Link className="tile" href={t.href} key={t.key}>
+            <span className="tile-emoji">{t.emoji}</span>
+            <span className="tile-title">{t.title}</span>
+            <span className="tile-sub">{t.subtitle}</span>
+          </Link>
+        ))}
+      </div>
     </>
   );
 }

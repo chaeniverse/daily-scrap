@@ -9,7 +9,7 @@ export default function DateSelector({ reports, currentSlug, latestSlug }) {
 
   function handleChange(e) {
     const slug = e.target.value;
-    if (slug === latestSlug) router.push("/");
+    if (slug === latestSlug) router.push("/briefing");
     else router.push(`/report/${slug}`);
   }
 

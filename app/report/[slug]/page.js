@@ -35,7 +35,7 @@ export default function ReportPage({ params }) {
       <article>
         <Markdown>{report.content}</Markdown>
       </article>
-      <a className="back-link" href="/">← 최신 리포트로</a>
+      <a className="back-link" href="/briefing">← 브리핑 목록으로</a>
     </>
   );
 }
