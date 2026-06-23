@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getAllGuides, getGuideBySlug } from "../../../lib/guides";
 import Markdown from "../../_components/Markdown";
+import MemoBox from "../../_components/MemoBox";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -24,6 +25,7 @@ export default function GuidePost({ params }) {
       <article>
         <Markdown>{guide.content}</Markdown>
       </article>
+      <MemoBox storageKey={`memo:guide:${guide.slug}`} />
     </>
   );
 }
