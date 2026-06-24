@@ -17,6 +17,13 @@ const TILES = [
     title: "금융상품 가이드",
     subtitle: "펀드·ETF·시장지표·코인 등 쉽게 정리",
   },
+  {
+    key: "연봉협상 플랜",
+    href: "/salary",
+    emoji: "💸",
+    title: "연봉협상 플랜",
+    subtitle: "내 연봉 분석 · 목표 · 협상 전략",
+  },
 ];
 
 export default function Home() {
