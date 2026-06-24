@@ -32,14 +32,22 @@ export default function MemoBox({ storageKey }) {
     let alive = true;
     (async () => {
       const local = readLocal();
+      const migKey = `migrated:${storageKey}`;
+      let alreadyMigrated = false;
+      try {
+        alreadyMigrated = localStorage.getItem(migKey) === "1";
+      } catch (e) {
+        /* 무시 */
+      }
       try {
         const res = await fetch(`/api/memos?key=${encodeURIComponent(storageKey)}`);
         if (!res.ok) throw new Error("db unavailable");
         const data = await res.json();
         let serverNotes = data.notes || [];
 
-        // DB가 비어 있고 localStorage에 기존 메모가 있으면 한 번 올려서 보존(마이그레이션)
-        if (serverNotes.length === 0 && local.length > 0) {
+        // '이전 localStorage 메모'는 이 기기에서 딱 한 번만, DB가 빈 경우에만 올린다.
+        // 한 번 올린 뒤엔 플래그를 세워 다시는 올리지 않는다(지운 메모가 되살아나지 않도록).
+        if (!alreadyMigrated && serverNotes.length === 0 && local.length > 0) {
           for (const n of [...local].reverse()) {
             try {
               const r = await fetch("/api/memos", {
@@ -55,6 +63,11 @@ export default function MemoBox({ storageKey }) {
               /* 무시 */
             }
           }
+        }
+        try {
+          localStorage.setItem(migKey, "1");
+        } catch (e) {
+          /* 무시 */
         }
         if (!alive) return;
         setMode("db");
