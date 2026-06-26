@@ -1,6 +1,7 @@
 import { getAllReports } from "../../lib/reports";
 import Markdown from "../_components/Markdown";
 import DateSelector from "../_components/DateSelector";
+import MemoBox from "../_components/MemoBox";
 
 export const dynamic = "force-static";
 
@@ -36,6 +37,8 @@ export default function Briefing() {
       <article>
         <Markdown>{latest.content}</Markdown>
       </article>
+
+      <MemoBox storageKey={`memo:report:${latest.slug}`} />
 
       {rest.length > 0 && (
         <section className="archive">

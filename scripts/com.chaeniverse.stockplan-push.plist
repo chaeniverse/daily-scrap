@@ -11,11 +11,11 @@
         <string>/Users/chaehyun/Documents/GitHub/stock-plan/scripts/auto-push.sh</string>
     </array>
 
-    <!-- 매일 낮 12시 정각 실행 -->
+    <!-- 매일 오전 11시 정각 실행 -->
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>12</integer>
+        <integer>11</integer>
         <key>Minute</key>
         <integer>0</integer>
     </dict>
