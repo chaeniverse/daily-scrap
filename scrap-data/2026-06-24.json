@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-24",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-06-24T09:05:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "[단독] 카카오, 전 세계 30위권 AI 슈퍼컴 가동…삼성·NHN도 '개봉박두'",
+          "summary": "카카오 인프라 계열사 카카오클라우드가 과기정통부 'GPU 확보·구축·운용 지원 사업'을 통해 엔비디아 HGX B200(블랙웰) 기반 255노드 슈퍼컴퓨터를 구축하고 5월 말부터 시험 가동에 들어갔다. 린팩(HPL) 실측 69.1페타플롭스로 기존 32페타플롭스급 대비 두 배 넘는 성능이며, 확보한 연산 자원은 오픈AI 협력 사업과 자체 AI '카나나', AI 에이전트 개발에 쓰일 예정이다. 데이터 사이언티스트 관점에서 대규모 학습·추론 인프라 확충은 LLM·추천 모델의 실험 회전속도와 운영 역량을 좌우하는 핵심 변수다.",
+          "source": "아주경제 (2026.06)",
+          "url": "https://www.ajunews.com/view/20260621111115931"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "CJ올리브네트웍스, 데이터 마케팅 콘퍼런스 '더 맥소노미 2026' 개최",
+          "summary": "CJ올리브네트웍스가 6월 23~24일 이틀간 데이터 마케팅 콘퍼런스 '더 맥소노미(The MACSONOMY) 2026'을 25개 발표 세션으로 역대 최대 규모로 개최했다. AI·데이터 기반 마케팅 전환, 고객 데이터 활용과 개인화 전략 등 실무 사례가 공유되며 그룹 차원의 데이터 역량 강화 기조를 보여준다. 올리브영의 추천·개인화 분석 수요 확대와 맞물려 DS 직무의 고객 데이터 모델링·실험 설계 역량 중요성이 커지는 배경이다.",
+          "source": "주간한국 (2026.06)",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7169635"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "에이전틱 AI / 거버넌스",
+          "title": "늘어나는 에이전틱 AI 솔루션…분석가들 \"무분별한 확산 관리할 때\"",
+          "summary": "에이전틱 AI 도입이 급증하는 가운데 가트너는 2026년 말까지 전사 애플리케이션의 40%가 특정 작업에 최적화된 AI 에이전트를 통합할 것으로 전망했다. CIO 분석은 에이전트가 본격 확산되기 전 기업이 수명주기 관리·통합 가시성·보안·ROI 측정 등 전사 기준을 마련해야 하며, MLOps처럼 도구·정책·측정 체계·중앙 거버넌스를 갖춰야 한다고 짚었다. DS에게는 에이전트 성능·비용·안전성을 측정하는 평가 지표 설계와 모니터링이 핵심 과제로 부상한다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/3988735/%EB%8A%98%EC%96%B4%EB%82%98%EB%8A%94-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8B%B1-ai-%EC%86%94%EB%A3%A8%EC%85%98%C2%B7%C2%B7%C2%B7-%EB%B6%84%EC%84%9D%EA%B0%80%EB%93%A4-%EB%AC%B4%EB%B6%84%EB%B3%84.html"
+        },
+        {
+          "company": "LLM 평가 / LLM-as-a-Judge",
+          "title": "정책을 따르는 평가자, LLM-as-a-Judge (Hyperconnect Tech Blog)",
+          "summary": "하이퍼커넥트 엔지니어링 팀이 LLM이 생성한 설명의 품질을 사람이 정한 정책에 맞춰 자동 채점하는 'LLM-as-a-Judge' 적용 사례를 공개했다. 단순 벤치마크 점수가 아니라 정책 준수·일관성을 기준으로 평가자 LLM을 설계·검증하는 방법을 다뤄, 대규모 생성 결과를 사람 라벨링 없이 평가·개선하는 실무 파이프라인을 보여준다. 생성형 모델의 오프라인 평가와 A/B 테스트 보조 지표 설계가 중요해지는 DS 직무에 직접 맞닿은 주제다.",
+          "source": "Hyperconnect Tech Blog (2026.04)",
+          "url": "https://hyperconnect.github.io/2026/04/22/llm-as-a-judge-for-explanation-quality.html"
+        }
+      ]
+    }
+  ]
+}

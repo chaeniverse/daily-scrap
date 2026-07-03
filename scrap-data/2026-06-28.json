@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-28",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-06-28T07:50:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "카카오, AI 에이전트 앱 서비스 '카나나(Kanana)' 웹 버전 출시",
+          "summary": "카카오가 AI 에이전트 서비스 '카나나'의 웹 버전을 출시해 모바일을 넘어 PC 환경까지 사용 접점을 넓혔다. 대화 맥락 기반 정보 검색·추천·작업 수행을 웹에서도 제공하면서, 멀티 채널 사용 로그를 활용한 추천·개인화·실험 설계가 데이터 직무의 과제로 확장되고 있다.",
+          "source": "카카오 뉴스룸 (2026)",
+          "url": "https://www.kakaocorp.com/page/detail/11809"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "구글 클라우드, CJ올리브영 통합 데이터 분석 플랫폼 구축…고객 혁신 가속",
+          "summary": "구글 클라우드가 CJ올리브영의 통합 데이터 분석 플랫폼 구축을 지원해 흩어져 있던 데이터를 한곳에 모아 분석·활용하는 기반을 마련했다. 빅쿼리 기반 데이터 통합과 AI 분석이 결합되면서, 개인화 추천·검색 고도화를 담당하는 데이터 사이언티스트의 데이터 파이프라인 역량이 핵심으로 부상한다.",
+          "source": "인공지능신문 (2026)",
+          "url": "https://www.aitimes.kr/news/articleView.html?idxno=31550"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "CJ올리브영, AI로 유통 혁신…비개발직군도 데이터 분석 직접 한다",
+          "summary": "CJ올리브영이 전사 업무 환경에 생성형 AI를 도입해 비개발 직군도 자연어로 데이터를 직접 분석할 수 있는 환경을 구축했다. 데이터 활용이 전사로 확산되면서, 데이터 사이언티스트에게는 셀프서비스 분석 도구 설계와 데이터 품질·거버넌스 관리 역할이 커지는 흐름이다.",
+          "source": "물류신문 (2026)",
+          "url": "https://www.klnews.co.kr/news/articleView.html?idxno=320718"
+        },
+        {
+          "company": "넷플릭스 (Netflix, Korea)",
+          "title": "\"같은 BTS 팬도 다른 화면 본다\"…넷플릭스, 7월 AI 기반 UI 개편",
+          "summary": "넷플릭스가 7월부터 AI 기반으로 홈 화면 UI를 개편해 같은 관심사를 가진 이용자라도 시청 맥락에 따라 서로 다른 화면을 보게 된다. 실시간 개인화와 맥락 기반 추천을 전면에 내세운 변화로, 추천 모델·실시간 랭킹·A/B 테스트를 다루는 데이터 사이언티스트 직무와 직결된다.",
+          "source": "뉴시스 (2026.06)",
+          "url": "https://www.newsis.com/view/NISX20260610_0003663771"
+        },
+        {
+          "company": "넷플릭스 (Netflix, US)",
+          "title": "Lessons Learnt From Consolidating ML Models in a Large-Scale Recommendation System",
+          "summary": "넷플릭스 연구진이 대규모 추천 시스템에서 여러 ML 모델을 하나의 통합 모델로 합치며 얻은 교훈을 공개했다. 모델 중복을 줄여 운영 복잡도와 비용을 낮추면서도 추천 품질을 유지하는 방법을 다루는데, 추천 시스템을 운영하는 데이터 사이언티스트에게 모델 통합·MLOps 관점의 실무 참고 자료다.",
+          "source": "Netflix Research (2026)",
+          "url": "https://research.netflix.com/publication/lessons-learnt-from-consolidating-ml-models-in-a-large-scale-recommendation"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "A/B 테스트 / LLM 실험",
+          "title": "스캐터랩이 가장 재밌는 LLM을 찾는 방법",
+          "summary": "스캐터랩이 자체 LLM 서비스에서 매주 10개 이상의 모델을 학습·배포하며 A/B 테스트와 MAB(Multi-Armed Bandit), 리더보드를 결합해 '가장 재밌는' 모델을 가려내는 실험 체계를 공개했다. 온라인 실험 설계와 지표 정의, 밴딧 기반 트래픽 배분은 데이터 사이언티스트의 핵심 실무 역량이다.",
+          "source": "스캐터랩 기술블로그 (2026)",
+          "url": "https://blog.scatterlab.co.kr/104253"
+        },
+        {
+          "company": "데이터 아키텍처 / 에이전틱",
+          "title": "데이터 단절이 AI 전환 막는다…데이터브릭스, 에이전틱 시대 정면 돌파",
+          "summary": "데이터브릭스가 분석 데이터와 운영 데이터의 단절이 기업 AI 전환의 최대 걸림돌이라며, 에이전틱 AI가 직접 데이터를 구동하는 통합 아키텍처를 제시했다. 운영·분석 데이터를 잇는 레이크하우스와 거버넌스가 표준이 되면서, 데이터 사이언티스트의 작업 무대가 모델에서 데이터 플랫폼 전반으로 넓어지고 있다.",
+          "source": "ZDNet Korea (2026.04)",
+          "url": "https://zdnet.co.kr/view/?no=20260401140609"
+        },
+        {
+          "company": "LLM 운영 / 멀티모델",
+          "title": "\"6월은 역사상 최다 AI 모델 출시 달\"…단일 공급사 의존 위험",
+          "summary": "2026년 6월이 주요 기업들이 프런티어급 모델을 잇따라 내놓으며 역대 최다 AI 모델이 쏟아진 달로 기록됐고, 단일 공급사 의존의 위험이 부각됐다. 빠르게 바뀌는 모델 지형 속에서 모델 교체·벤치마킹·멀티모델 운영 역량이 데이터 사이언티스트에게 필수 과제가 되고 있다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260622165220"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "RAG / 엔터프라이즈",
+          "title": "이비소프트, 기업 AI '도입' 넘어 '실행' 강조…오케스트레이터 플랫폼 청사진 공개",
+          "summary": "이비소프트가 Workflow Orchestrator·LLM Runtime·Approval Gate를 중심에 두고 RAG·벡터DB·지식그래프·HITL 피드백을 결합한 기업형 AI 오케스트레이터 구조를 공개했다. 검색에 머물지 않고 '실행'까지 책임지는 에이전트 플랫폼으로, RAG 품질 평가와 검색·재검색 루프 설계가 데이터 사이언티스트의 과제로 떠오른다.",
+          "source": "전자신문 (2026.04)",
+          "url": "https://www.etnews.com/20260430000177"
+        },
+        {
+          "company": "멀티에이전트 / 플랫폼",
+          "title": "업스테이지, '타임리' 인수로 멀티 LLM 에이전트 플랫폼 확보",
+          "summary": "업스테이지가 타임리를 인수해 여러 LLM을 조합·오케스트레이션하는 멀티 에이전트 플랫폼 역량을 확보했다. 단일 모델이 아니라 작업별로 최적 모델을 라우팅·협업시키는 구조가 확산되면서, 에이전트 파이프라인 설계와 평가가 데이터 직무의 새 영역으로 자리 잡고 있다.",
+          "source": "AI타임스 (2026)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211524"
+        },
+        {
+          "company": "AI 에이전트 / 기업",
+          "title": "구글, '제미나이 3.5 플래시'에 컴퓨터 유즈 탑재…기업용 에이전트 시장 조준",
+          "summary": "구글이 '제미나이 3.5 플래시'에 화면을 직접 조작하는 컴퓨터 유즈(Computer Use) 기능을 탑재해 기업용 에이전트 시장을 정조준했다. 에이전트가 실제 업무 도구를 자율적으로 다루는 단계로 진입하면서, 에이전트 행동 로그 분석과 성능·안전성 평가가 데이터 사이언티스트의 실무 과제로 부상한다.",
+          "source": "AI타임스 (2026)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212160"
+        }
+      ]
+    }
+  ]
+}

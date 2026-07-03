@@ -1,0 +1,99 @@
+{
+  "date": "2026-06-29",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-06-29T09:45:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "카카오, AI 앱서비스 '카나나(Kanana)' 신규 업데이트…관심사 등록·개인화 강화",
+          "summary": "카카오가 AI 앱서비스 '카나나'를 업데이트해 이용자가 관심 분야를 직접 등록하면 AI 메이트가 이를 기억해 답변과 추천을 최적화하는 개인화 기능을 강화했다. 개인메이트 '나나'와 그룹메이트 '카나'가 대화 맥락을 기억하며 맞춤형 경험을 제공하는데, 관심사·대화 로그를 활용한 개인화 모델과 추천 설계가 데이터 사이언티스트의 과제로 부각된다.",
+          "source": "카카오 뉴스룸 (2026)",
+          "url": "https://www.kakaocorp.com/page/detail/11850"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "올리브영 개발자들, 테크 워크숍서 2026년 비전·데이터 전략 공유",
+          "summary": "CJ올리브영이 사내 테크 워크숍을 열어 개발·데이터 조직이 2026년 기술 비전과 AI·데이터 활용 전략을 공유했다. sLLM 기반 리뷰 테마 추천과 BigQuery 데이터 플랫폼 등 실서비스 사례가 중심에 놓이면서, 추천·검색 고도화를 담당하는 데이터 사이언티스트의 모델링·파이프라인 역량이 핵심으로 떠오른다.",
+          "source": "올리브영 테크블로그 (2026.04)",
+          "url": "https://oliveyoung.tech/2026-04-09/oy-tech-workshop/"
+        },
+        {
+          "company": "넷플릭스 (Netflix, Korea)",
+          "title": "넷플릭스, AI에 숏폼·게임 더했다…\"7월 '클립스' 韓 도입\"",
+          "summary": "넷플릭스가 AI 기반 개인화 추천에 세로형 숏폼 피드 '클립스'와 게임을 결합한 차세대 플랫폼 전략을 공개하고 7월 한국·일본에 도입한다고 밝혔다. 회원마다 노출 이미지·예고편·설명까지 개인화하고 생성형 AI로 카탈로그 이해도를 높이는 방향으로, 실시간 랭킹·개인화 모델과 A/B 테스트를 다루는 데이터 사이언티스트 직무와 직결된다.",
+          "source": "아시아투데이 (2026.06)",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260610010003490"
+        },
+        {
+          "company": "넷플릭스 (Netflix, US)",
+          "title": "MediaFM: The Multimodal AI Foundation for Media Understanding at Netflix",
+          "summary": "넷플릭스가 오디오·비디오·텍스트를 함께 학습한 첫 삼중모달 파운데이션 모델 'MediaFM'을 공개했다. 카탈로그의 장면(shot) 단위로 풍부한 맥락 임베딩을 생성하는 멀티모달 트랜스포머 인코더로, 콘텐츠 이해와 추천·검색에 두루 쓰인다. 임베딩 기반 후보 생성·콘텐츠 이해를 다루는 데이터 사이언티스트에게 실무 참고가 되는 공식 기술 블로그다.",
+          "source": "Netflix Tech Blog (2026)",
+          "url": "https://netflixtechblog.com/mediafm-the-multimodal-ai-foundation-for-media-understanding-at-netflix-e8c28df82e2d"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "모델 적응 / 하이퍼네트워크",
+          "title": "\"RAG도 미세조정도 한계\"…실시간 모델 만드는 '하이퍼네트워크' 뜬다",
+          "summary": "기업이 자체 데이터를 모델에 반영하는 미세조정과 RAG가 모두 인간 검증의 부담을 없애지 못한다는 지적 속에, 맞춤 지식을 실시간으로 모델에 주입하는 '하이퍼네트워크' 기반 전문 모델이 부상하고 있다. 높은 자율성과 낮은 운영 비용을 동시에 노리는 흐름으로, 모델 적응·평가 전략을 설계하는 데이터 사이언티스트가 주목할 기술이다.",
+          "source": "AI타임스 (2026)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211947"
+        },
+        {
+          "company": "엔터프라이즈 AI / 데이터 전략",
+          "title": "[2026 전망] 엔터프라이즈 AI 성패, 에이전틱 AI 신뢰 구조와 데이터 전략",
+          "summary": "2026년 기업 AI의 성패가 에이전틱 AI의 신뢰 구조와 이를 떠받치는 데이터 전략에서 갈린다는 전망이 나왔다. 자율 실행 에이전트를 안정적으로 운영하려면 데이터 품질·거버넌스·평가 체계가 필수가 되면서, 데이터 사이언티스트의 역할이 모델 개발을 넘어 데이터 신뢰성 확보로 확장되고 있다.",
+          "source": "지티티코리아 (2026)",
+          "url": "https://www.gttkorea.com/news/articleView.html?idxno=23865"
+        },
+        {
+          "company": "AI 거버넌스 / 데이터 통제",
+          "title": "AI 도입 바빴던 기업들, 이젠 '안전한 AI 활용' 챙긴다",
+          "summary": "생성형 AI로 생산성 향상을 체감한 기업들이 이제 민감 정보 유출과 데이터 통제 우려에 대응해 '안전한 AI 활용'으로 무게를 옮기고 있다. 데이터 접근 권한·유출 방지·모델 사용 통제가 운영 표준으로 자리 잡으면서, 데이터 사이언티스트에게도 거버넌스를 고려한 파이프라인 설계가 필수 역량이 되고 있다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260626170146"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "RAG / 품질 운영",
+          "title": "RAG는 정말 '환각'을 잡았는가…지표 없는 품질 관리의 한계",
+          "summary": "RAG가 생성형 AI의 사실상 표준 아키텍처로 자리 잡았지만, 출시 때 잘 동작하던 RAG 챗봇이 운영 수개월 뒤 답변 품질이 저하되는 사례가 늘고 있다. 검색·생성 품질을 측정할 지표 없이 운영하는 한계가 핵심으로 지목되면서, RAG 평가 지표 정의와 재검색 루프 모니터링이 데이터 사이언티스트의 실무 과제로 떠오른다.",
+          "source": "ZDNet Korea (2026.05)",
+          "url": "https://zdnet.co.kr/view/?no=20260522182257"
+        },
+        {
+          "company": "에이전트 평가 / 벤치마크",
+          "title": "에이전트 장기 프로젝트 벤치마크 'AA-브리프케이스' 공개…1위는 '페이블 5'",
+          "summary": "장시간에 걸친 실제 프로젝트형 업무에서 AI 에이전트의 수행 능력을 측정하는 벤치마크 'AA-브리프케이스'가 공개됐다. 단발 질의응답이 아니라 연속적인 작업 완수 능력을 평가한다는 점에서, 에이전트 행동 로그 분석과 성능·신뢰성 평가를 설계하는 데이터 사이언티스트에게 중요한 참고 자료다.",
+          "source": "AI타임스 (2026)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212179"
+        }
+      ]
+    }
+  ]
+}

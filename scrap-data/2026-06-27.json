@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-27",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-06-27T07:55:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "카카오, '카나나' 정식 출시…카톡 넘어 예약·결제까지 잇는 AI 에이전트 첫발",
+          "summary": "카카오가 온디바이스 AI 비서 '카나나 인 카카오톡'을 정식 출시하고, 대화 맥락을 파악해 일정 관리·정보 검색·상품 및 장소 추천을 수행하도록 했다. 이후 '선물하기'와 연동해 결제까지 채팅방 안에서 잇는 '에이전트 커머스'로 확장 중이다. 대화 의도 파악과 추천·개인화 품질이 핵심이라 데이터 사이언티스트의 역할이 커지는 흐름이다.",
+          "source": "아주경제 (2026.03)",
+          "url": "https://www.ajunews.com/view/20260319133505213"
+        },
+        {
+          "company": "카카오",
+          "title": "카카오, AI 대중화 승부수…\"5000만 이용자가 AI 에이전트 될 것\"",
+          "summary": "카카오가 카카오톡 5000만 이용자 전반을 에이전틱 AI로 전환하겠다는 전략을 내놨다. 메신저를 넘어 검색·커머스·결제로 이어지는 일상형 에이전트를 전면에 세우면서, 대규모 사용자 로그 기반 추천·실험 역량이 데이터 직무의 중심 과제가 되고 있다.",
+          "source": "테크M (2026)",
+          "url": "https://www.techm.kr/news/articleView.html?idxno=151613"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "T4 GPU 1장으로 일궈낸 올리브영의 Gemma 3 기반 sLLM 구축기",
+          "summary": "올리브영 테크블로그가 단일 T4 GPU 환경에서 구글 Gemma 3를 기반으로 자체 sLLM을 구축한 과정을 공개했다. 리뷰 데이터에서 추출한 10만여 표현을 활용해 매일 새 테마를 생성하고 토픽별 맞춤 상품을 추천하며, 상용 모델 대비 95% 수준 정확도를 유지하면서 운영비를 크게 낮췄다. 경량 모델 파인튜닝·임베딩·추천 파이프라인이 데이터 사이언티스트 직무와 직결된다.",
+          "source": "올리브영 테크블로그 (2026.01)",
+          "url": "https://oliveyoung.tech/2026-01-21/oy_sllm/"
+        },
+        {
+          "company": "넷플릭스 (Netflix, US)",
+          "title": "The Value of Personalized Recommendations: Evidence from Netflix",
+          "summary": "넷플릭스 연구진이 개인화 추천이 시청·유지에 기여하는 가치를 정량화한 연구를 공개했다. 추천이 유발하는 효용과 상태 의존성(state dependence)을 반영한 이산선택 모형을 구축해, 추천 알고리즘이 실제 비즈니스 지표에 미치는 인과적 효과를 추정한다. 추천을 다루는 데이터 사이언티스트에게 인과추론·실험 설계 관점의 핵심 참고 자료다.",
+          "source": "Netflix Research / arXiv (2026.03)",
+          "url": "https://arxiv.org/abs/2511.07280"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "MLOps / 인재양성",
+          "title": "엘리스그룹, 생성AI 인재 키운다…대학에 MLOps 파이프라인 인프라 제공",
+          "summary": "엘리스그룹이 참여 대학에 자체 AI 풀스택 인프라와 MLOps 파이프라인을 제공해, 매년 석·박사급 70여 명이 데이터 수집부터 모델 배포·운영까지 생성AI 개발 전 주기를 실무로 경험하게 한다. 데이터 사이언티스트에게 모델 학습뿐 아니라 배포·모니터링·재학습으로 이어지는 MLOps 역량이 기본기로 자리 잡는 신호다.",
+          "source": "디지털데일리 (2026.06)",
+          "url": "https://www.ddaily.co.kr/page/view/2026060210453627115"
+        },
+        {
+          "company": "임베딩 / 경량 모델",
+          "title": "네이버클라우드, 경량 옴니모달 모델 공개…\"국방 환경 최적화\"",
+          "summary": "네이버클라우드가 텍스트·이미지 등 여러 모달리티를 처리하는 경량 옴니모달 모델을 공개했다. 제한된 인프라에서 멀티모달 임베딩·추론을 돌릴 수 있다는 점에서, 온프레미스·엣지 환경의 추천·검색 파이프라인을 설계하는 데이터 사이언티스트에게 시사점이 크다.",
+          "source": "전자신문 (2026.06)",
+          "url": "https://www.etnews.com/20260615000237"
+        },
+        {
+          "company": "벡터DB / 인프라",
+          "title": "RAG 시대, Vector DB 비교 가이드: Vespa vs Milvus vs Qdrant",
+          "summary": "SK 데보션이 대표 벡터DB인 Vespa·Milvus·Qdrant를 검색 성능·확장성·운영 편의성 관점에서 비교한 실무 가이드를 공개했다. 임베딩 검색·하이브리드 검색이 추천·RAG의 기본값이 되면서, 데이터 사이언티스트에게 벡터 인프라 선택과 튜닝이 실서비스 품질을 좌우하는 핵심 역량으로 떠오르고 있다.",
+          "source": "SK 데보션 (2026)",
+          "url": "https://devocean.sk.com/blog/techBoardDetail.do?ID=167359&boardType=techBlog"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "RAG / 엔터프라이즈",
+          "title": "구글, 기업용 AI 정확도 34% 높인 '에이전틱 RAG' 공개",
+          "summary": "구글 리서치·구글 클라우드가 스스로 판단하고 재검색하는 '에이전틱 RAG 프레임워크'를 공개하고 제미나이 엔터프라이즈 에이전트 플랫폼에 적용했다. 팩트 기반 질의응답 평가에서 기존 RAG 대비 최대 34% 높은 정확도를 기록했다. 검색 품질 평가·재검색 루프 설계가 데이터 사이언티스트의 새 과제로 부상한다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260609152631"
+        },
+        {
+          "company": "멀티에이전트 / 기업도입",
+          "title": "아이티센, 에이전틱 AI '세니 3.0' 전사 도입…업무 생산성 30% 높였다",
+          "summary": "아이티센이 멀티 AI 에이전트 관리 플랫폼 '에이전트고 2026'을 기반으로 업무 비서 '세니 3.0'을 개발해 전사에 도입, 생산성을 30% 높였다. 실시간 웹 검색 기반 시장 분석과 RAG 기반 사내 지식 검색을 결합한 사례로, 멀티에이전트 오케스트레이션·평가가 실무 과제임을 보여준다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260608113534"
+        },
+        {
+          "company": "멀티에이전트 / 구현",
+          "title": "RAG 기반 Multi-Agent를 구현해보자 (feat. 데보션 오픈랩)",
+          "summary": "SK 데보션이 검색→평가→필요 시 재검색→최종 답변으로 이어지는 RAG 기반 멀티에이전트를 직접 구현하는 실습 글을 공개했다. LangGraph 등으로 에이전트 행동 흐름을 설계하고 도구 호출·재검색 루프를 자동화하는 과정을 다뤄, 데이터 사이언티스트의 에이전트 파이프라인 설계 역량에 직접 도움이 된다.",
+          "source": "SK 데보션 (2026)",
+          "url": "https://devocean.sk.com/blog/techBoardDetail.do?ID=168018&boardType=techBlog"
+        },
+        {
+          "company": "벡터 검색 / 인프라",
+          "title": "엔비디아-AWS, 협력 확대…AI 추론·벡터 검색 지원",
+          "summary": "엔비디아와 AWS가 협력을 확대해 RAG·의미 기반 검색·추천 시스템·에이전틱 AI 애플리케이션 구축에 최적화된 인프라를 제공한다. 대규모 벡터 검색과 추론을 결합한 인프라 스택이 표준화되면서, 추천·RAG를 운영하는 데이터 사이언티스트의 인프라 활용 폭이 넓어진다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260624174857"
+        }
+      ]
+    }
+  ]
+}

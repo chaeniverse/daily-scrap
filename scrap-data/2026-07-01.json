@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-01",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-07-01T10:20:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "카카오, AI 앱서비스 '카나나' 신규 업데이트…관심사 기반 개인화 강화",
+          "summary": "카카오가 AI 앱서비스 '카나나'를 업데이트해 이용자가 관심 분야를 등록하면 AI 메이트가 이를 기억해 홈 화면 등 앱 전반에서 맞춤형 콘텐츠를 제안하도록 개인화 수준을 높였다. 대화 중 웹 검색 결과를 답변으로 받는 기능도 추가됐다. 이용자 관심사·행동 신호를 개인화 추천에 반영하는 구조라 추천·랭킹 모델을 다루는 데이터 사이언티스트 직무와 맞닿아 있다.",
+          "source": "AI타임스 (2026)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=204830"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "CJ올리브영, 전사 업무 환경에 생성형 AI 도입…데이터 기반 업무 혁신 본격화",
+          "summary": "CJ올리브영이 유통업계에서 앞서 전 구성원 업무 환경에 생성형 AI를 도입하고 데이터 기반 업무 혁신을 본격화한다고 밝혔다. 사내 문서·리뷰·상품 데이터를 AI로 분석·요약해 실무에 활용하는 체계를 확대하는 방향으로, 방대한 리뷰·구매 데이터를 추천·검색 모델로 연결하는 데이터 사이언티스트의 실무 기반과 연결된다.",
+          "source": "뉴스1 (2026.04)",
+          "url": "https://www.news1.kr/industry/distribution/6135329"
+        },
+        {
+          "company": "넷플릭스 (Netflix, US)",
+          "title": "Collaborative Retrieval for LLM-based Conversational Recommendation",
+          "summary": "넷플릭스 리서치가 대화형 추천을 위한 LLM 기반 협업 검색(Collaborative Retrieval) 연구를 공식 공개했다. 사용자의 대화 맥락과 협업 필터링 신호를 결합해 후보 타이틀을 검색·랭킹하는 접근으로, 대화 로그 기반 추천·임베딩·검색 파이프라인을 설계하는 데이터 사이언티스트에게 직접적인 참고가 되는 공식 리서치 자료다.",
+          "source": "Netflix Research (2026)",
+          "url": "https://research.netflix.com/publication/collaborative-retrieval-for-large-language-model-based-conversational"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "MLOps / 시계열",
+          "title": "MLOps를 통한 AI 모델 개발 및 배포 효율화: 데이터 시계열 분석 사례",
+          "summary": "삼성 테크블로그가 MLOps로 AI 모델의 개발·배포 주기를 효율화한 시계열 분석 실전 사례를 공개했다. 데이터 수집·학습·배포·모니터링을 자동화 파이프라인으로 묶어 재학습과 품질 관리를 체계화하는 구조로, 실서비스 모델을 운영·개선해야 하는 데이터 사이언티스트에게 실무적으로 유용한 공식 기술 사례다.",
+          "source": "삼성 테크블로그 (2026)",
+          "url": "https://techblog.samsung.com/blog/article/66"
+        },
+        {
+          "company": "LLM / 파인튜닝 실험",
+          "title": "실험으로 알아보는 LLM 파인튜닝 최적화 가이드 Part 1",
+          "summary": "SKT 엔터프라이즈 개발자 블로그가 LLM 파인튜닝의 핵심 변수를 실험으로 검증한 최적화 가이드를 공개했다. 데이터셋 구성, 하이퍼파라미터, LoRA 설정 등이 성능에 미치는 영향을 실측 비교하는 내용으로, 도메인 특화 모델을 튜닝·평가하는 데이터 사이언티스트의 실험 설계에 직접 참고가 된다.",
+          "source": "SKT Enterprise 개발자 블로그 (2026)",
+          "url": "https://www.sktenterprise.com/bizInsight/blogDetail/dev/14105"
+        },
+        {
+          "company": "IT 시장 / 전망",
+          "title": "[커버스토리] 2026년 주요 IT 시장 전망",
+          "summary": "컴퓨터월드가 2026년 국내 IT 시장의 핵심 축으로 생성형 AI·에이전트·데이터 인프라 투자 확대를 짚었다. AI 투자가 데이터 파이프라인·MLOps·평가 체계 수요로 이어지는 흐름으로, 실서비스 모델을 담당하는 데이터 사이언티스트의 채용 수요가 함께 커지고 있음을 시사한다.",
+          "source": "컴퓨터월드 (2026)",
+          "url": "https://www.comworld.co.kr/news/articleView.html?idxno=51882"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "에이전틱 RAG / 검색",
+          "title": "구글, '스스로 판단하고 재검색'하는 차세대 에이전틱 RAG 공개",
+          "summary": "구글이 검색 결과가 불충분하면 스스로 판단해 질의를 바꿔 재검색하는 차세대 에이전틱 RAG를 공개했다. 단발성 검색-생성을 넘어 검색 여부·시점·방법을 에이전트가 결정해 답변 정확도를 높이는 구조로, 검색·임베딩·평가 파이프라인을 설계하는 데이터 사이언티스트가 주목할 변화다.",
+          "source": "AI타임스 (2026.06)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211484"
+        },
+        {
+          "company": "RAG / 벡터DB 구현",
+          "title": "벡터 DB와 에이전트 스킬로 RAG 시스템 만들기",
+          "summary": "LY(LINE) 테크블로그가 벡터 DB와 에이전트 스킬을 결합해 RAG 시스템을 구축하는 실전 가이드를 공개했다. 문서 임베딩·저장, 검색, 에이전트 스킬 연동까지 파이프라인 전 과정을 다루는 내용으로, 검색증강생성 시스템을 직접 설계·운영하는 데이터 사이언티스트에게 구체적인 참고가 되는 공식 기술 자료다.",
+          "source": "LY Corp 테크블로그 (2026)",
+          "url": "https://techblog.lycorp.co.jp/ko/building-rag-system-with-vector-db-and-agent-skills"
+        }
+      ]
+    }
+  ]
+}
