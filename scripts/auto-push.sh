@@ -1,12 +1,12 @@
 #!/bin/bash
 # ─────────────────────────────────────────────────────────────
-# stock-plan 자동 commit & push 스크립트
+# daily-scrap 자동 commit & push 스크립트
 # 매일 launchd가 실행하거나, 수동으로 실행해 테스트할 수 있습니다.
-#   수동 실행:  bash ~/Documents/GitHub/stock-plan/scripts/auto-push.sh
+#   수동 실행:  bash ~/Documents/GitHub/daily-scrap/scripts/auto-push.sh
 # ─────────────────────────────────────────────────────────────
 set -euo pipefail
 
-REPO="/Users/chaehyun/Documents/GitHub/stock-plan"
+REPO="/Users/chaehyun/Documents/GitHub/daily-scrap"
 LOG="$REPO/scripts/push.log"
 cd "$REPO"
 

@@ -7,7 +7,7 @@ GitHub에 새 리포트가 push될 때마다 **Vercel이 자동으로 다시 빌
 
 ```
 매일 오전 7시   Cowork 예약 작업 → stock-report/ 에 .md 생성
-오전 7시 15분   mac launchd → GitHub(chaeniverse/stock-plan)로 자동 push
+오전 7시 15분   mac launchd → GitHub(chaeniverse/daily-scrap)로 자동 push
 push 직후       Vercel이 감지 → 자동 빌드 → https://<프로젝트>.vercel.app 갱신
 ```
 
@@ -26,13 +26,13 @@ launchd 자동 push는 이미 설정돼 있으니(`SETUP.md` 참고), 아래 **V
 ## 2. repo를 Vercel 프로젝트로 가져오기
 
 1. Vercel 대시보드에서 **Add New… → Project** 클릭.
-2. **Import Git Repository** 목록에서 **`chaeniverse/stock-plan`** 의 **Import** 클릭.
+2. **Import Git Repository** 목록에서 **`chaeniverse/daily-scrap`** 의 **Import** 클릭.
    - 목록에 안 보이면 **Adjust GitHub App Permissions** 에서 이 repo 접근을 허용하세요.
 3. 설정 화면이 뜨면 **그대로 두고** `Deploy` 만 누르면 됩니다. 확인 포인트:
    - **Framework Preset**: `Next.js` (자동 감지됨)
    - **Root Directory**: `./` (기본값)
    - Build/Install 명령은 **건드리지 마세요** (자동).
-4. 1~2분 뒤 빌드가 끝나면 **`https://stock-plan-xxxx.vercel.app`** 주소가 생성됩니다.
+4. 1~2분 뒤 빌드가 끝나면 **`https://daily-scrap-xxxx.vercel.app`** 주소가 생성됩니다.
 
 ---
 
@@ -49,7 +49,7 @@ launchd 자동 push는 이미 설정돼 있으니(`SETUP.md` 참고), 아래 **V
 
 ## 4. (선택) 주소 외우기 쉽게 바꾸기
 
-- Vercel 프로젝트 → **Settings → Domains** 에서 `stock-plan-xxxx` 부분을
+- Vercel 프로젝트 → **Settings → Domains** 에서 `daily-scrap-xxxx` 부분을
   원하는 이름(예: `chae-stock`)으로 바꾸면 `https://chae-stock.vercel.app` 가 됩니다.
 - 본인 도메인이 있다면 같은 화면에서 연결할 수 있습니다.
 
@@ -70,7 +70,7 @@ launchd 자동 push는 이미 설정돼 있으니(`SETUP.md` 참고), 아래 **V
   웹페이지도 갱신되지 않습니다(`scripts/push.log` 확인).
 - **로컬에서 미리 보고 싶어요.**
   ```bash
-  cd ~/Documents/GitHub/stock-plan
+  cd ~/Documents/GitHub/daily-scrap
   npm install
   npm run dev      # http://localhost:3000
   ```

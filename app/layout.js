@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
               <span className="brand-mark">💰</span>
               <span className="brand-text">채를 위한 투자 브리핑</span>
             </a>
-            <a className="repo-link" href="https://github.com/chaeniverse/stock-plan" target="_blank" rel="noreferrer">
+            <a className="repo-link" href="https://github.com/chaeniverse/daily-scrap" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </div>

@@ -1,4 +1,4 @@
-# stock-plan 자동 push 설정 가이드 (mac)
+# daily-scrap 자동 push 설정 가이드 (mac)
 
 매일 오전 7시에 Cowork가 리포트를 `stock-report/`에 생성하고,
 오전 11시에 mac의 launchd가 자동으로 commit + push 합니다.
@@ -10,7 +10,7 @@
 터미널(Terminal.app)에서 아래를 그대로 실행하세요.
 
 ```bash
-cd ~/Documents/GitHub/stock-plan
+cd ~/Documents/GitHub/daily-scrap
 rm -f .git/index.lock                 # 남아있던 잠금파일 제거
 bash scripts/auto-push.sh             # 지금 바로 commit + push 테스트
 ```
@@ -19,7 +19,7 @@ bash scripts/auto-push.sh             # 지금 바로 commit + push 테스트
 macOS 키체인에 저장되어 이후 자동 실행 시 재입력이 필요 없습니다.
 (인증이 자꾸 막히면 아래 "SSH로 전환" 참고)
 
-push가 성공하면 https://github.com/chaeniverse/stock-plan 에서 파일이 보입니다.
+push가 성공하면 https://github.com/chaeniverse/daily-scrap 에서 파일이 보입니다.
 
 ---
 
@@ -27,27 +27,27 @@ push가 성공하면 https://github.com/chaeniverse/stock-plan 에서 파일이 
 
 ```bash
 # plist를 LaunchAgents 폴더로 복사
-cp ~/Documents/GitHub/stock-plan/scripts/com.chaeniverse.stockplan-push.plist \
+cp ~/Documents/GitHub/daily-scrap/scripts/com.chaeniverse.dailyscrap-push.plist \
    ~/Library/LaunchAgents/
 
 # 등록 (macOS 최신 방식)
-launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.chaeniverse.stockplan-push.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.chaeniverse.dailyscrap-push.plist
 
 # 잘 등록됐는지 확인
-launchctl list | grep stockplan
+launchctl list | grep dailyscrap
 ```
 
-> 구버전 macOS라면 `launchctl load ~/Library/LaunchAgents/com.chaeniverse.stockplan-push.plist`
+> 구버전 macOS라면 `launchctl load ~/Library/LaunchAgents/com.chaeniverse.dailyscrap-push.plist`
 
 ### 바로 한 번 실행해 테스트
 ```bash
-launchctl kickstart -k gui/$(id -u)/com.chaeniverse.stockplan-push
-cat ~/Documents/GitHub/stock-plan/scripts/push.log
+launchctl kickstart -k gui/$(id -u)/com.chaeniverse.dailyscrap-push
+cat ~/Documents/GitHub/daily-scrap/scripts/push.log
 ```
 
 ### 해제하고 싶을 때
 ```bash
-launchctl bootout gui/$(id -u)/com.chaeniverse.stockplan-push
+launchctl bootout gui/$(id -u)/com.chaeniverse.dailyscrap-push
 ```
 
 ---
@@ -62,13 +62,13 @@ ssh-keygen -t ed25519 -C "chaehyun3253@gmail.com"
 cat ~/.ssh/id_ed25519.pub          # 출력값을 GitHub > Settings > SSH keys 에 등록
 
 # 원격 주소를 SSH로 변경
-cd ~/Documents/GitHub/stock-plan
-git remote set-url origin git@github.com:chaeniverse/stock-plan.git
+cd ~/Documents/GitHub/daily-scrap
+git remote set-url origin git@github.com:chaeniverse/daily-scrap.git
 ```
 
 ---
 
 ## 파일 설명
 - `auto-push.sh` : 변경분을 commit 후 push. 수동/자동 모두 사용.
-- `com.chaeniverse.stockplan-push.plist` : 매일 11:00 자동 실행 정의.
+- `com.chaeniverse.dailyscrap-push.plist` : 매일 11:00 자동 실행 정의.
 - `push.log` / `launchd.*.log` : 실행 기록(자동 생성).

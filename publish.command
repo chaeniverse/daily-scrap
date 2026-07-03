@@ -1,6 +1,6 @@
 #!/bin/bash
 # =========================================================
-#  stock-plan 수동 발행 버튼
+#  daily-scrap 수동 발행 버튼
 #  더블클릭하면, 지금 repo에 바뀐 내용을 GitHub로 push 합니다.
 #  push되면 Vercel이 자동으로 감지해 사이트를 재배포합니다.
 #
@@ -14,7 +14,7 @@ cd "$(dirname "$0")" || exit 1
 # git을 못 찾는 환경 대비
 export PATH="/usr/bin:/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
 
-echo "📈 stock-plan 발행 시작..."
+echo "📈 daily-scrap 발행 시작..."
 echo "위치: $(pwd)"
 echo
 

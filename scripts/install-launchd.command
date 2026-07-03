@@ -1,18 +1,18 @@
 #!/bin/bash
 # =========================================================
-#  stock-plan 자동 push 설치 버튼 (매일 오전 11:00)
+#  daily-scrap 자동 push 설치 버튼 (매일 오전 11:00)
 #  더블클릭하면 launchd 예약작업을 내 Mac에 등록/갱신합니다.
 #  등록되면 매일 11:00에 auto-push.sh가 자동으로 commit & push 합니다.
 #  (재설치/시간변경 시 다시 더블클릭하면 됩니다.)
 # =========================================================
 set -uo pipefail
 
-LABEL="com.chaeniverse.stockplan-push"
-REPO="/Users/chaehyun/Documents/GitHub/stock-plan"
+LABEL="com.chaeniverse.dailyscrap-push"
+REPO="/Users/chaehyun/Documents/GitHub/daily-scrap"
 SRC="$REPO/scripts/$LABEL.plist"
 DEST="$HOME/Library/LaunchAgents/$LABEL.plist"
 
-echo "📦 stock-plan 자동 push(매일 11:00) 설치 중..."
+echo "📦 daily-scrap 자동 push(매일 11:00) 설치 중..."
 echo
 
 if [ ! -f "$SRC" ]; then
