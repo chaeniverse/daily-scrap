@@ -346,6 +346,40 @@ body {
   color: #d9362b;
 }
 
+/* ── 아카이브 날짜 그리드 (월별 묶음) ── */
+.archive-month {
+  margin: 0 0 18px;
+}
+.archive-month-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-soft);
+  margin: 0 0 10px;
+}
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 8px;
+}
+.date-card {
+  display: block;
+  text-align: center;
+  padding: 12px 8px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: border-color 0.15s, color 0.15s, transform 0.15s;
+}
+.date-card:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
 /* ── 채용 스크랩 ── */
 .scrap-jobs {
   display: flex;

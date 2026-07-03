@@ -43,16 +43,23 @@ export default function ScrapHome() {
       {rest.length > 0 && (
         <section className="archive">
           <h2>지난 스크랩</h2>
-          <ul className="archive-list">
-            {rest.map((s) => (
-              <li className="archive-item" key={s.date}>
-                <a href={`/scrap/${s.date}`}>
-                  <span className="ai-title">{s.title}</span>
-                  <span className="ai-date">{s.displayDate}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
+          {Object.entries(
+            rest.reduce((acc, s) => {
+              (acc[s.month] = acc[s.month] || []).push(s);
+              return acc;
+            }, {})
+          ).map(([month, items]) => (
+            <div className="archive-month" key={month}>
+              <h3 className="archive-month-title">{month}</h3>
+              <div className="date-grid">
+                {items.map((s) => (
+                  <a className="date-card" href={`/scrap/${s.date}`} key={s.date}>
+                    {s.shortDate}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
         </section>
       )}
     </>
