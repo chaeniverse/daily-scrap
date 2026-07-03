@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getAllScraps, getScrapByDate } from "../../../lib/scraps";
 import ScrapView from "../../_components/ScrapView";
 import ScrapDateSelector from "../../_components/ScrapDateSelector";
+import MemoBox from "../../_components/MemoBox";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -34,6 +35,7 @@ export default function ScrapDatePage({ params }) {
         />
       </section>
       <ScrapView data={s.data} />
+      <MemoBox storageKey={`memo:scrap:${s.date}`} />
     </>
   );
 }

@@ -24,6 +24,13 @@ const TILES = [
     title: "AI 채용 뉴스 스크랩",
     subtitle: "카카오·CJ올리브영·넷플릭스 + 직무 트렌드",
   },
+  {
+    key: "내 메모",
+    href: "/memos",
+    emoji: "🧷",
+    title: "내 메모 모아보기",
+    subtitle: "브리핑·가이드·스크랩 메모를 한 곳에",
+  },
 ];
 
 export default function Home() {

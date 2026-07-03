@@ -21,11 +21,6 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         <main className="container">{children}</main>
-        <footer className="site-footer">
-          <div className="container">
-            매일 오전 자동 갱신 · 투자 자문이 아닌 참고용 정보입니다.
-          </div>
-        </footer>
       </body>
     </html>
   );
