@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <section className="home-intro">
-        <h1>💰 채를 위한 데일리 스크랩</h1>
+        <h1>🗞️ 채를 위한 데일리 스크랩</h1>
         <p>매일 갱신되는 투자 브리핑 · 금융상품 가이드 · AI 채용 뉴스</p>
       </section>
 

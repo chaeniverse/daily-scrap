@@ -43,16 +43,24 @@ export default function Briefing() {
       {rest.length > 0 && (
         <section className="archive">
           <h2>지난 리포트</h2>
-          <ul className="archive-list">
-            {rest.map((r) => (
-              <li className="archive-item" key={r.slug}>
-                <a href={`/report/${r.slug}`}>
-                  <span className="ai-title">{r.title}</span>
-                  <span className="ai-date">{r.displayDate}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
+          {Object.entries(
+            rest.reduce((acc, r) => {
+              const key = r.month || "기타";
+              (acc[key] = acc[key] || []).push(r);
+              return acc;
+            }, {})
+          ).map(([month, items]) => (
+            <div className="archive-month" key={month}>
+              <h3 className="archive-month-title">{month}</h3>
+              <div className="date-grid">
+                {items.map((r) => (
+                  <a className="date-card" href={`/report/${r.slug}`} key={r.slug}>
+                    {r.shortDate}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
         </section>
       )}
     </>
