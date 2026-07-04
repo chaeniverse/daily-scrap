@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-04",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-07-04T15:20:29+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "카카오 정신아 \"2026년엔 AI·글로벌 팬덤 양대 축으로 도약\"",
+          "summary": "정신아 카카오 대표가 2026년 신년 메시지에서 카나나를 중심으로 한 AI와 글로벌 팬덤 사업을 올해 성장의 양대 축으로 제시했다. '응축'의 시기를 지나 AI 에이전트 확산과 수익화로 '증폭'하겠다는 방향이어서, 카카오 데이터 사이언스 조직의 사업 우선순위를 가늠할 수 있다.",
+          "source": "MTN 머니투데이방송 (2026.01)",
+          "url": "https://news.mtn.co.kr/news-detail/2026010212051768450"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "내년엔 뭐가 뜰까? 올리브영이 알려주는 2026년 트렌드스포",
+          "summary": "올리브영이 데이터 기반 트렌드 분석 플랫폼 '인사이트 스튜디오'를 통해 연간 수억 건의 구매·검색·멤버십 로그 데이터를 분석해 2026년 뷰티 트렌드를 전망했다. 사내 데이터 자산을 상품 기획과 대외 리포트로 연결하는 구조라, AI 추천·데이터 분석 직무가 실제로 다루는 데이터의 규모와 활용 방식을 보여준다.",
+          "source": "CJ올리브영 공식 뉴스룸 (2026)",
+          "url": "https://corp.oliveyoung.com/ko/trend/insight-studio/8"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "Augmenting Netflix Search with In-Session Adapted Recommendations",
+          "summary": "넷플릭스 리서치가 검색 세션 중 실시간 행동 신호를 반영해 검색 결과를 보정하는 인세션(in-session) 적응형 추천 연구를 공개했다. 세션 단위 임베딩과 실시간 랭킹 조정이 핵심으로, Personalization 직군이 다루는 검색·추천 결합 문제를 구체적으로 보여주는 공식 자료다.",
+          "source": "Netflix Research (공식)",
+          "url": "https://research.netflix.com/publication/augmenting-netflix-search-with-in-session-adapted-recommendations"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "채용 / 커리어",
+          "title": "\"채용 기준이 달라진다\" AI가 뒤흔드는 IT 일자리의 현주소",
+          "summary": "AI 확산으로 IT 채용 기준이 바뀌는 가운데 데이터 사이언티스트는 꾸준한 수요와 평균 이상의 성장세를 보이는 직무로 꼽혔고, AI/ML 엔지니어·데이터 사이언티스트 연봉은 2026년 4.1% 상승이 전망됐다. AI 도구 활용 능력과 도메인 데이터 이해가 새 채용 기준으로 부상한다는 분석이다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/4135668/%EC%B1%84%EC%9A%A9-%EA%B8%B0%EC%A4%80%EC%9D%B4-%EB%8B%AC%EB%9D%BC%EC%A7%84%EB%8B%A4-ai%EA%B0%80-%EB%92%A4%ED%9D%94%EB%93%9C%EB%8A%94-it-%EC%9D%BC%EC%9E%90%EB%A6%AC%EC%9D%98-%ED%98%84.html"
+        },
+        {
+          "company": "AI 에이전트 인프라",
+          "title": "전 세계 AI 에이전트 2,800만 개 시대…기업 경쟁력은 '인프라'에 달렸다",
+          "summary": "전 세계에서 운영되는 AI 에이전트가 2,800만 개에 달하는 가운데, 에이전트 확산의 성패는 데이터 파이프라인·컴퓨팅 등 인프라 역량이 가른다는 분석이다. 모델 자체보다 데이터·서빙 인프라 설계가 차별화 요소가 된다는 점에서 MLOps 관점의 시사점이 크다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/4166350/%EC%A0%84-%EC%84%B8%EA%B3%84-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-2800%EB%A7%8C-%EA%B0%9C-%ED%99%95%EC%82%B0%EA%B8%B0%EC%97%85-%EC%8A%B9%EB%B6%80-%EA%B0%80%EB%A5%B4%EB%8A%94-%EC%9D%B8.html"
+        },
+        {
+          "company": "에이전틱 분석",
+          "title": "칼럼 | 화려한 AI보다 현실적 통제…구글이 제시한 에이전트 전략",
+          "summary": "구글이 완전 자율 에이전트보다 명확한 범위 제한과 통제 가능한 워크플로 중심의 에이전트 전략을 제시했다는 칼럼이다. 분석 업무에 에이전트를 도입할 때도 평가·가드레일·휴먼인더루프 설계가 우선이라는 실무 교훈을 담고 있다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/4165338/%EC%B9%BC%EB%9F%BC-%ED%99%94%EB%A0%A4%ED%95%9C-ai%EB%B3%B4%EB%8B%A4-%ED%98%84%EC%8B%A4%EC%A0%81-%ED%86%B5%EC%A0%9C%EA%B5%AC%EA%B8%80%EC%9D%B4-%EC%A0%9C%EC%8B%9C%ED%95%9C-%EC%97%90%EC%9D%B4.html"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "AI 에이전트 / 기업 도입",
+          "title": "[AI 워크 서밋] \"2026년 이후 경쟁력은 AI가 결정\"...기업 실무 패러다임 바꾸는 'AI 에이전트'",
+          "summary": "국내 대기업들이 사내 보안 문서를 정밀 참조하는 RAG와 자율 실행형 에이전틱 AI를 결합해 업무 전 주기를 자동화하는 흐름을 짚은 전자신문 AI 워크 서밋 기사다. RAG·에이전트가 기업 실무 표준으로 안착하는 2026년 도입 현황을 개괄한다.",
+          "source": "전자신문 (2026.06)",
+          "url": "https://www.etnews.com/20260611000335"
+        },
+        {
+          "company": "Agentic RAG / 테크블로그",
+          "title": "업무 생산성 향상을 위한 Agentic RAG 기반 서비스 'DeepDive'",
+          "summary": "삼성리서치가 Agentic RAG 기반 보고서 작성 서비스 'DeepDive'의 설계를 공개했다. 긴 문서에서 핵심을 추출하는 단계부터 멀티 에이전트 협업으로 다중 문서를 분석하는 구조까지, 엔터프라이즈 Agentic RAG 파이프라인의 실제 구현 사례를 다룬 공식 기술 블로그다.",
+          "source": "Samsung Research Tech Blog (2026)",
+          "url": "https://techblog.samsung.com/blog/article/76"
+        },
+        {
+          "company": "벡터DB",
+          "title": "[평가와전망] 벡터 품은 클라우드 네이티브 DBMS…'AI 두뇌' 저장소로 진화",
+          "summary": "AI 검색·RAG·에이전틱 AI 확산으로 벡터 검색 기능이 범용 클라우드 네이티브 DBMS에 흡수되며, 별도 벡터DB와 기존 DBMS의 경계가 허물어지고 있다는 분석이다. RAG 인프라 선택 시 전용 벡터DB와 통합 DBMS 간 트레이드오프를 정리해 준다.",
+          "source": "데이터넷 (2026)",
+          "url": "https://www.datanet.co.kr/news/articleView.html?idxno=208837"
+        }
+      ]
+    }
+  ]
+}
