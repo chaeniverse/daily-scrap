@@ -1,7 +1,7 @@
 import { getAllScraps } from "../../lib/scraps";
 import ScrapView from "../_components/ScrapView";
 import ScrapDateSelector from "../_components/ScrapDateSelector";
-import MemoBox from "../_components/MemoBox";
+import MemoDock from "../_components/MemoDock";
 
 export const dynamic = "force-static";
 
@@ -41,7 +41,10 @@ export default function ScrapHome() {
 
       <ScrapView data={latest.data} />
 
-      <MemoBox storageKey={`memo:scrap:${latest.date}`} />
+      <MemoDock
+        storageKey={`memo:scrap:${latest.date}`}
+        title={`채용 스크랩 · ${latest.displayDate}`}
+      />
 
       {rest.length > 0 && (
         <section className="archive">

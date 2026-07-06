@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { getAllReports, getReportBySlug } from "../../../lib/reports";
 import Markdown from "../../_components/Markdown";
 import DateSelector from "../../_components/DateSelector";
-import MemoBox from "../../_components/MemoBox";
+import MemoDock from "../../_components/MemoDock";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -36,7 +36,10 @@ export default function ReportPage({ params }) {
       <article>
         <Markdown>{report.content}</Markdown>
       </article>
-      <MemoBox storageKey={`memo:report:${report.slug}`} />
+      <MemoDock
+        storageKey={`memo:report:${report.slug}`}
+        title={`투자 브리핑 · ${report.displayDate}`}
+      />
       <a className="back-link" href="/briefing">← 브리핑 목록으로</a>
     </>
   );

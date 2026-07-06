@@ -53,6 +53,23 @@ export async function POST(request) {
   }
 }
 
+// PUT /api/memos  { key, text }  → 키별 '단일 문서' upsert (자동저장용)
+export async function PUT(request) {
+  try {
+    const { key, text } = await request.json();
+    if (!key) return NextResponse.json({ error: "key 필요" }, { status: 400 });
+    await ensureTable();
+    await sql`DELETE FROM memos WHERE memo_key = ${key};`;
+    const t = String(text ?? "").trim();
+    if (t) {
+      await sql`INSERT INTO memos (memo_key, content) VALUES (${key}, ${t});`;
+    }
+    return NextResponse.json({ ok: true });
+  } catch (e) {
+    return NextResponse.json({ error: String(e?.message || e) }, { status: 500 });
+  }
+}
+
 // DELETE /api/memos?id=123
 export async function DELETE(request) {
   const id = new URL(request.url).searchParams.get("id");
