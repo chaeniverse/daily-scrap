@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-07",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-07-07T19:15:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "'1분기 최대실적' 쓴 카카오…\"AI 에이전트 커머스 본격화\"",
+          "summary": "카카오가 1분기 역대 최대 실적 컨퍼런스콜에서 하반기 AI 에이전트 커머스 본격화를 선언했다. 카카오톡 대화 맥락에서 이용자 의도를 파악해 상품 추천부터 결제까지 채팅방 안에서 완결하는 구조로, 선물하기 연동 실험을 거쳐 외부 커머스 파트너로 확장한다. 대화 로그 기반 추천·랭킹 모델링이 핵심이라 카카오 Data Scientist 직무의 중심 과제를 보여준다.",
+          "source": "파이낸셜뉴스 (2026.05)",
+          "url": "https://www.fnnews.com/news/202605071040174234"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "'챗GPT 포 카카오'에서 올영·무신사 쇼핑한다…\"AI 맞춤형 큐레이션 고도화\"",
+          "summary": "카카오가 '챗GPT 포 카카오'의 카카오툴즈에 올리브영 등 외부 서비스를 대거 연동해 AI 에이전트 기반 맞춤형 쇼핑 큐레이션을 고도화한다. 올리브영 입장에서는 자사 앱 밖 대화형 AI 채널에서 상품 추천이 이뤄지는 새 유통 접점이 생기는 것으로, AI 추천 직무의 커버 범위가 외부 에이전트 생태계로 넓어지는 흐름을 보여준다.",
+          "source": "AI타임스 (2026)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=208318"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "넷플릭스, 7월 한국에 세로형 피드 도입…\"콘텐츠 탐색 쉬워\"",
+          "summary": "넷플릭스가 7월부터 한국 모바일앱에 세로형 피드 '클립스'를 도입한다. 짧은 영상을 보고 바로 본편 재생·찜 추가로 이어지는 구조로, 피드에 어떤 클립을 어떤 순서로 노출할지가 새로운 개인화 랭킹 문제가 된다. 한국 시장을 겨냥한 탐색 경험 개편이라 Netflix Personalization 직군의 최신 과제를 보여준다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260610133348"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "Netflix reveals major AI ad overhaul at Upfront 2026",
+          "summary": "넷플릭스가 업프론트 2026에서 생성형 AI로 광고 크리에이티브를 콘텐츠 세계관과 결합하는 모듈형 광고 포맷을 공개했다. 일시정지·미드롤 인터랙티브 광고를 전 광고 요금제 시장에 확대할 계획으로, 광고 타기팅·측정과 추천이 결합되는 신규 데이터 사이언스 영역이 커지고 있음을 보여준다.",
+          "source": "Campaign UK (2026.05)",
+          "url": "https://www.campaignlive.co.uk/article/netflix-reveals-major-ai-ad-overhaul-upfront-2026/1958164"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "직무 트렌드 / FDE",
+          "title": "칼럼 | 기술을 넘어선 경쟁력, 뛰어난 FDE는 어떻게 다른가",
+          "summary": "AI 시대 각광받는 FDE(Forward Deployed Engineer)의 차별점을 짚은 칼럼이다. 고객 현장에 들어가 도메인 문제를 데이터·모델로 직접 푸는 역할로, 모델링 역량에 비즈니스 문제 정의 능력을 결합해야 한다는 메시지는 Data Scientist 커리어 설계에도 그대로 적용된다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/4168196/%EC%B9%BC%EB%9F%BC-%EA%B8%B0%EC%88%A0%EC%9D%84-%EB%84%98%EC%96%B4%EC%84%A0-%EA%B2%BD%EC%9F%81%EB%A0%A5-%EB%9B%B0%EC%96%B4%EB%82%9C-fde%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%A4%EB%A5%B8.html"
+        },
+        {
+          "company": "생성형 AI 도입 조사",
+          "title": "\"2026년 국내 기업 85%가 생성형 AI 도입…10곳 중 8곳 예산 확대\"",
+          "summary": "2026년 국내 기업의 생성형 AI 도입률이 85%를 넘고 79.3%가 관련 예산을 늘린다는 조사 결과다. 주요 활용 업무로 문서 요약(43.1%)에 이어 '데이터 분석 및 인사이트 도출'(40.3%)이 꼽혀, LLM을 분석 워크플로에 결합하는 역량이 데이터 직군의 표준 요건이 되고 있음을 시사한다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/4045735/2026%EB%85%84-%EA%B5%AD%EB%82%B4-%EA%B8%B0%EC%97%85-85%EA%B0%80-%EC%83%9D%EC%84%B1%ED%98%95-ai-%EB%8F%84%EC%9E%8510%EA%B3%B3-%EC%A4%91-8%EA%B3%B3-%EC%98%88%EC%82%B0-%ED%99%95.html"
+        },
+        {
+          "company": "에이전틱 AI / 데이터 인프라",
+          "title": "CIO가 에이전틱 AI 성공의 핵심으로 API를 보는 이유",
+          "summary": "에이전틱 AI의 성패는 모델이 아니라 에이전트가 호출할 수 있는 API·데이터 접점 설계에 달렸다는 분석이다. 분석 결과와 모델을 에이전트가 소비 가능한 형태로 노출하는 문제는 에이전틱 분석(agentic analytics)을 준비하는 데이터 사이언티스트에게 직접적인 설계 과제다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/4019982/cio%EA%B0%80-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8B%B1-ai-%EC%84%B1%EA%B3%B5%EC%9D%98-%ED%95%B5%EC%8B%AC%EC%9C%BC%EB%A1%9C-api%EB%A5%BC-%EB%B3%B4%EB%8A%94-%EC%9D%B4%EC%9C%A0.html"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "삼성SDS / 공공 에이전트",
+          "title": "\"공공기관도 직접 AI 에이전트 만든다\"…삼성SDS '패브릭스'로 행정 혁신 가속",
+          "summary": "삼성SDS 패브릭스가 공공기관이 MCP 서버 구축부터 RAG 구성, 업무 시스템 연계까지 직접 AI 에이전트를 만들어 운영하도록 지원한다. RAG+MCP 조합이 엔터프라이즈 에이전트의 표준 아키텍처로 자리 잡는 흐름을 보여주는 국내 사례다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260624173649"
+        },
+        {
+          "company": "티쓰리큐 / 차세대 RAG",
+          "title": "티쓰리큐, 기술평가 T2로 'EDPP' 경쟁력 확인…X-AG 아키텍처 주목",
+          "summary": "티쓰리큐가 RAG·GAG·OAG를 개별 기술로 쓰는 수준을 넘어 메타데이터·온톨로지·지식그래프·벡터DB·SQL·AI에이전트를 하나의 실행 구조로 오케스트레이션하는 X-AG 아키텍처로 기술평가 T2 등급을 받았다. 벡터 검색과 구조화 데이터를 결합하는 하이브리드 RAG 설계의 방향을 참고할 만하다.",
+          "source": "ZDNet Korea (2026.07)",
+          "url": "https://zdnet.co.kr/view/?no=20260702163859"
+        },
+        {
+          "company": "KT클라우드 / 벡터DB",
+          "title": "KT클라우드, 공공 AI 문턱 낮춘다…'AI 파운드리' 생태계 확장",
+          "summary": "KT클라우드가 엔드투엔드 AI 플랫폼 'AI 파운드리' 공공 클라우드 상품을 출시했다. 핵심 서비스인 'RAG 스위트'와 '벡터DB'가 클라우드 보안인증(CSAP) 중등급을 획득해, 규제 환경에서도 RAG·벡터 검색 스택을 도입할 수 있는 기반이 갖춰지고 있음을 보여준다.",
+          "source": "ZDNet Korea (2026.04)",
+          "url": "https://zdnet.co.kr/view/?no=20260421094136"
+        }
+      ]
+    }
+  ]
+}
