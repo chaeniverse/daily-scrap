@@ -528,15 +528,18 @@ a.scrap-t:hover {
 .memo-panel-area {
   flex: 1;
   width: 100%;
+  min-height: 0;
   border: none;
   outline: none;
   resize: none;
   padding: 16px;
   font-family: inherit;
-  font-size: 15px;
+  /* 16px 미만이면 iOS가 입력 시 화면을 확대(전체화면처럼 튐)하므로 16px 고정 */
+  font-size: 16px;
   line-height: 1.7;
   background: var(--bg);
   color: var(--text);
+  overflow-y: auto;
 }
 .memo-panel-status {
   padding: 7px 16px;
@@ -545,6 +548,16 @@ a.scrap-t:hover {
   color: var(--text-soft);
   border-top: 1px solid var(--border);
   text-align: right;
+}
+
+/* 모바일: 메모 패널 세로 폭을 약 1/3 줄임 (내용은 안에서 스크롤) */
+@media (max-width: 600px) {
+  .memo-panel {
+    height: min(300px, 55vh);
+    bottom: 80px;
+    width: calc(100vw - 24px);
+    right: 12px;
+  }
 }
 
 .back-link {
