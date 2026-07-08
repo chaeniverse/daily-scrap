@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-08",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-07-08T10:10:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "7명 중 1명 AI로 뉴스 본다…네이버·다음 '검색 전환' 속도",
+          "summary": "AI 챗봇으로 매주 뉴스를 이용하는 국내 응답자가 14%까지 늘어난 가운데, 카카오의 다음은 일부 검색에 적용해 온 'AI 오버뷰'를 7월 확대 출시한다. 검색과 뉴스 소비가 생성형 AI 요약 중심으로 재편되면서, 요약 품질 평가와 검색 랭킹·클릭 데이터 분석이 카카오 데이터 직군의 새 과제로 부상하는 흐름이다.",
+          "source": "쿠키뉴스 (2026.06)",
+          "url": "https://www.kukinews.com/article/view/kuk202606250159"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "K-뷰티 쇼핑, 말 안 통해도 OK…올리브영, 38개 언어 AI 통역 지원",
+          "summary": "CJ올리브영이 매장 키오스크에서 AI 아바타와 실시간 대화하며 쇼핑하는 'AI 쇼핑 어시스턴트'를 도입한다. 개인의 피부 특성과 선호에 맞춘 상품 추천, 재고 확인, 38개 언어 통역까지 지원한다. 온라인 앱을 넘어 오프라인 매장 접점에서도 대화형 추천 데이터가 쌓이는 구조라 AI 추천 직무의 커버 범위 확장을 보여준다.",
+          "source": "뉴시스 (2026.07)",
+          "url": "https://www.newsis.com/view/NISX20260708_0003700218"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+          "summary": "넷플릭스가 홈 화면을 행(row) 단위 랭킹 조합이 아니라 생성형 모델로 엔드투엔드 구성하는 'GenPage' 접근을 공식 기술블로그에 공개했다. 파운데이션 모델 중심으로 개인화 스택을 통합해 온 연장선으로, 페이지 구성 자체가 생성 문제로 재정의되는 변화라 Personalization 직군의 핵심 기술 방향을 보여준다.",
+          "source": "Netflix TechBlog (2026.06)",
+          "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "\"글로벌에서도 사랑받게\"…넷플릭스, K-콘텐츠 확산 전략은",
+          "summary": "넷플릭스가 한국 콘텐츠의 글로벌 확산 전략을 소개했다. 언어·국경을 넘는 콘텐츠 발견은 시청 데이터 기반 개인화 추천이 이끄는 구조라, 한국 시장 데이터를 다루는 Netflix Korea Personalization 직군과 접점이 큰 뉴스다.",
+          "source": "디지털데일리 (2026.06)",
+          "url": "https://www.ddaily.co.kr/page/view/2026063017220791534"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "데이터 준비도 / 에이전틱 AI",
+          "title": "AI 도입 97% 시대…\"데이터 준비된 기업은 5%뿐\"",
+          "summary": "조직의 97%가 AI 프로젝트를 진행 중이지만 이를 지원할 데이터가 준비됐다고 답한 곳은 5%에 불과하다는 조사다. 코파일럿에서 자율적인 에이전틱 워크플로로 갈수록 데이터 과제가 복잡해진다는 진단으로, 데이터 품질 관리와 파이프라인 설계 역량이 DS 채용의 핵심 요건으로 굳어지는 배경을 보여준다.",
+          "source": "CIO Korea (2026)",
+          "url": "https://www.cio.com/article/4173602/ai-%EB%8F%84%EC%9E%85-97-%EC%8B%9C%EB%8C%80%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A4%80%EB%B9%84%EB%90%9C-%EA%B8%B0%EC%97%85%EC%9D%80-5%EB%BF%90.html"
+        },
+        {
+          "company": "Netflix / 개인화 알림",
+          "title": "Thinking Fast & Slow for a Personalized Notification System",
+          "summary": "넷플릭스가 개인화 알림 시스템을 실시간으로 빠르게 반응하는 경로와 배치로 깊게 최적화하는 경로의 이원 구조로 설계한 사례를 공개했다. 추천·알림 랭킹, 실시간 피처 처리, 발송 타이밍 최적화 등 추천시스템 DS가 실무에서 마주치는 아키텍처 문제를 다뤄 참고 가치가 높다.",
+          "source": "Netflix TechBlog (2026.06)",
+          "url": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "앤트로픽 / 협업 에이전트",
+          "title": "앤트로픽, 슬랙 전용 에이전트 '클로드 태그' 출시…\"AI와 협업 시대 연다\"",
+          "summary": "앤트로픽이 슬랙 채널에서 '@Claude'로 태그하면 대화 맥락을 이해하고 필요한 도구·데이터를 활용해 작업을 수행하는 에이전트 '클로드 태그'를 공개했다. 에이전트가 협업 도구에 팀원처럼 상주하는 형태로, 업무 맥락 검색(RAG)과 도구 호출을 결합한 AgentOps 운영 사례로 주목할 만하다.",
+          "source": "AI타임스 (2026.07)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212035"
+        },
+        {
+          "company": "지식그래프 / 엔터프라이즈 RAG",
+          "title": "[디투피플] \"지식그래프·AI에이전트로 엔터프라이즈 AI 효과 높일 것\"",
+          "summary": "지식그래프와 AI 에이전트를 결합해 엔터프라이즈 AI의 정확도와 활용도를 높이겠다는 인터뷰다. 벡터 검색 단독 RAG의 한계를 그래프 기반 관계 정보로 보완하는 하이브리드 설계가 기업 현장의 표준으로 자리 잡는 흐름을 보여준다.",
+          "source": "디지털투데이 (2026)",
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654444"
+        }
+      ]
+    }
+  ]
+}
