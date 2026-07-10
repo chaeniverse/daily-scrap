@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "채를 위한 데일리 스크랩",
-  description: "매일 갱신되는 투자 브리핑 · 금융상품 가이드 · AI 채용 뉴스 스크랩",
+  description: "매일 갱신되는 투자 브리핑 · 금융상품 가이드 · 테크/AI · 문화/엔터 스크랩",
 };
 
 export default function RootLayout({ children }) {

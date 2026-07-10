@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const s = getScrapByDate(params.date);
-  return { title: s ? `AI 채용 스크랩 (${s.displayDate})` : "스크랩" };
+  return { title: s ? `테크/AI (${s.displayDate})` : "스크랩" };
 }
 
 export default function ScrapDatePage({ params }) {
@@ -37,7 +37,7 @@ export default function ScrapDatePage({ params }) {
       <ScrapView data={s.data} />
       <MemoDock
         storageKey={`memo:scrap:${s.date}`}
-        title={`채용 스크랩 · ${s.displayDate}`}
+        title={`테크/AI · ${s.displayDate}`}
       />
     </>
   );

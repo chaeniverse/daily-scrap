@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "title": "테크/AI 스크랩 (Data Scientist)",
   "generated_at": "2026-07-10T15:30:00+09:00",
   "tracked_jobs": [
     {
@@ -17,6 +17,39 @@
     }
   ],
   "sections": [
+    {
+      "category": "테크/AI",
+      "items": [
+        {
+          "company": "구글",
+          "title": "구글, '제미나이 3.5 프로' 출시 연기…타사와 성능 격차 부담됐나",
+          "summary": "구글이 플래그십 모델 '제미나이 3.5 프로'의 출시를 연기했다. 경쟁사 프런티어 모델들과의 성능 격차 부담이 배경으로 거론되며, GPT-5.6·그록 등 최신 모델이 쏟아지는 가운데 모델 경쟁의 속도전이 한층 치열해지는 국면을 보여준다.",
+          "source": "AI타임스 (2026.07)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212099"
+        },
+        {
+          "company": "구글",
+          "title": "구글, '제미나이' 개인화 이미지 생성 기능 무료 개방…미국부터 적용",
+          "summary": "구글이 제미나이의 개인화 이미지 생성 기능을 무료로 개방한다. 미국부터 순차 적용되며, 유료 기능이던 생성형 이미지가 무료 사용자층으로 확대되면서 소비자 대상 AI 기능 경쟁이 가격이 아닌 기본 탑재 경쟁으로 옮겨가는 흐름이다.",
+          "source": "AI타임스 (2026.07)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212279"
+        },
+        {
+          "company": "앤트로픽",
+          "title": "앤트로픽, 생명과학 AI 플랫폼 '클로드 사이언스' 공개",
+          "summary": "앤트로픽이 생명과학 연구에 특화된 AI 플랫폼 '클로드 사이언스'를 공개했다. 범용 챗봇을 넘어 연구 워크플로에 에이전트를 통합하는 버티컬 특화 전략으로, AI 기업들이 산업별 전문 플랫폼으로 수익화를 확장하는 흐름을 보여준다.",
+          "source": "AI타임스 (2026.07)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212302"
+        },
+        {
+          "company": "SKT",
+          "title": "SKT, T우주 '구글 AI 플랜' 출시",
+          "summary": "SK텔레콤이 구독 플랫폼 T우주에서 '구글 AI 플랜' 3종을 출시했다. 제미나이·노트북LM 등 구글 최신 AI 서비스를 통신사 관계없이 정가 대비 할인가로 구독할 수 있게 한 것으로, 국내 통신사가 글로벌 AI 구독의 유통 채널로 자리 잡는 변화다.",
+          "source": "전자신문 (2026.07)",
+          "url": "https://www.etnews.com/20260703000153"
+        }
+      ]
+    },
     {
       "category": "회사 뉴스",
       "items": [

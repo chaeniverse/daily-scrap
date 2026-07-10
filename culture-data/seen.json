@@ -1,0 +1,9 @@
+{
+  "_comment": "문화/엔터 스크랩에 한 번이라도 노출된 기사 URL 목록. 예약 작업이 매일 읽어 중복 노출을 막고, 새로 추가한 기사 URL을 append 한다. 절대 비우지 말 것.",
+  "urls": [
+    "https://www.esquirekorea.co.kr/article/1905192",
+    "https://bravo.etoday.co.kr/view/atc_view/19537",
+    "https://www.tenasia.co.kr/article/2026070219004",
+    "https://www.inews24.com/view/1975408"
+  ]
+}

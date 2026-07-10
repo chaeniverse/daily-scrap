@@ -18,11 +18,18 @@ const TILES = [
     subtitle: "펀드·ETF·시장지표·코인 등 쉽게 정리",
   },
   {
-    key: "채용 스크랩",
+    key: "테크/AI",
     href: "/scrap",
     emoji: "🗞️",
-    title: "AI 채용 뉴스 스크랩",
-    subtitle: "카카오·CJ올리브영·넷플릭스 + 직무 트렌드",
+    title: "테크/AI",
+    subtitle: "테크/AI 뉴스 + 카카오·CJ올리브영·넷플릭스 직무 트렌드",
+  },
+  {
+    key: "문화/엔터",
+    href: "/culture",
+    emoji: "🎬",
+    title: "문화/엔터",
+    subtitle: "영화·음악·드라마·스포츠 화제 뉴스",
   },
   {
     key: "내 메모",
@@ -38,7 +45,7 @@ export default function Home() {
     <>
       <section className="home-intro">
         <h1>🗞️ 채를 위한 데일리 스크랩</h1>
-        <p>매일 갱신되는 투자 브리핑 · 금융상품 가이드 · AI 채용 뉴스</p>
+        <p>매일 갱신되는 투자 브리핑 · 금융상품 가이드 · 테크/AI · 문화/엔터</p>
       </section>
 
       <div className="tile-grid">

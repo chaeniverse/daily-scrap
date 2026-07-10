@@ -2,12 +2,12 @@
 
 import { useRouter } from "next/navigation";
 
-export default function ScrapDateSelector({ dates, currentDate, latestDate }) {
+export default function ScrapDateSelector({ dates, currentDate, latestDate, basePath = "/scrap" }) {
   const router = useRouter();
   function handleChange(e) {
     const d = e.target.value;
-    if (d === latestDate) router.push("/scrap");
-    else router.push(`/scrap/${d}`);
+    if (d === latestDate) router.push(basePath);
+    else router.push(`${basePath}/${d}`);
   }
   return (
     <div className="date-selector">
