@@ -8,7 +8,7 @@
 set -uo pipefail
 
 LABEL="com.chaeniverse.dailyscrap-push"
-REPO="/Users/chaehyun/Documents/GitHub/daily-scrap"
+REPO="/Users/chaehyun/GitHub/daily-scrap"
 SRC="$REPO/scripts/$LABEL.plist"
 DEST="$HOME/Library/LaunchAgents/$LABEL.plist"
 

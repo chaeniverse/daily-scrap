@@ -8,7 +8,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/chaehyun/Documents/GitHub/daily-scrap/scripts/auto-push.sh</string>
+        <string>/Users/chaehyun/GitHub/daily-scrap/scripts/auto-push.sh</string>
     </array>
 
     <!-- 매일 오전 11시 정각 실행 -->
@@ -21,8 +21,8 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/Users/chaehyun/Documents/GitHub/daily-scrap/scripts/launchd.out.log</string>
+    <string>/Users/chaehyun/GitHub/daily-scrap/scripts/launchd.out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/chaehyun/Documents/GitHub/daily-scrap/scripts/launchd.err.log</string>
+    <string>/Users/chaehyun/GitHub/daily-scrap/scripts/launchd.err.log</string>
 </dict>
 </plist>

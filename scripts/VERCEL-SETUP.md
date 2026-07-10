@@ -70,7 +70,7 @@ launchd 자동 push는 이미 설정돼 있으니(`SETUP.md` 참고), 아래 **V
   웹페이지도 갱신되지 않습니다(`scripts/push.log` 확인).
 - **로컬에서 미리 보고 싶어요.**
   ```bash
-  cd ~/Documents/GitHub/daily-scrap
+  cd ~/GitHub/daily-scrap
   npm install
   npm run dev      # http://localhost:3000
   ```
