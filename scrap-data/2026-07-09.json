@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-09",
+  "title": "AI 채용 뉴스 스크랩 (Data Scientist)",
+  "generated_at": "2026-07-09T10:30:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "AI 기대감 엇갈린 네카오…네이버 '비중 확대' 카카오 '목표가 하향'",
+          "summary": "증권가에서 네이버와 카카오의 AI 수익화 전망이 엇갈리고 있다. 네이버는 7월 21일부터 AI 브리핑 지면 검색광고로 수익화에 시동을 거는 반면, 카카오는 DB증권이 목표주가를 6만9000원에서 5만7000원으로 하향하는 등 신중론이 우세하다. 다음의 'AI 오버뷰' 확대 등 카카오 AI 서비스의 성과 입증이 하반기 과제로 남아, 검색·광고 데이터 분석 역량의 중요성이 커지는 국면이다.",
+          "source": "이데일리 (2026.07)",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04756006645512224"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "크래프톤-CJ올리브영, AI 해커톤 개최…AI 활용 역량으로 인재 찾는다",
+          "summary": "크래프톤과 CJ올리브영이 'AI Native 해커톤'을 공동 개최한다. 참가자 모집은 7월 8일부터 17일까지, 행사는 7월 30일 서울 성수동에서 열리며 AI 활용 역량을 기준으로 인재를 발굴하겠다는 취지다. 올리브영이 채용 접점에서 AI 실무 역량을 직접 평가하는 방식으로 전환하고 있다는 신호라 지원 전략에 직접 참고할 만하다.",
+          "source": "머니투데이 (2026.07)",
+          "url": "https://www.mt.co.kr/tech/2026/07/08/2026070810502819733"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "넷플릭스, AI로 '콘텐츠 선택 피로' 줄인다",
+          "summary": "넷플릭스가 AI 기반 개인화 추천을 강화해 이용자의 '콘텐츠 선택 피로'를 줄이는 방향으로 서비스를 개편하고 있다. 취향·관심사 기반 큐레이션 컬렉션, 대화형 추천, 음성 검색 등 새로운 탐색 경험을 확대하고 회원별로 노출 이미지·예고편·설명까지 개인화한다. 7월 한국 도입이 예고된 숏폼 '클립스'와 함께 Personalization 직군의 실무 범위가 넓어지는 흐름이다.",
+          "source": "아주경제 (2026.06)",
+          "url": "https://www.ajunews.com/view/20260604134531134"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "How Netflix Simplified Batch Compute with Kueue",
+          "summary": "넷플릭스가 쿠버네티스 네이티브 잡 큐잉 시스템 'Kueue'로 수백만 건의 배치 작업을 이관해 배치 컴퓨트 인프라를 단순화한 과정을 공식 기술블로그에 공개했다. 추천 모델 학습·피처 생성 같은 대규모 배치 워크로드 운영과 직결되는 내용으로, 넷플릭스 DS/ML 직군이 일하는 MLOps 기반을 이해하는 데 유용하다.",
+          "source": "Netflix TechBlog (2026.06)",
+          "url": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "오픈AI / LLM",
+          "title": "오픈AI, 최고 성능 'GPT-5.6' 3종 공개…\"정부 요청으로 제한적 출시\"",
+          "summary": "오픈AI가 최고 성능의 GPT-5.6 모델 3종을 공개했다. 정부 요청에 따라 제한적으로 출시된다는 점이 특징으로, 프런티어 모델의 성능 경쟁과 규제·안전 이슈가 동시에 진행되는 국면을 보여준다. LLM을 활용하는 DS 입장에서는 모델 선택지와 제약 조건이 함께 바뀌는 변화라 추적할 가치가 있다.",
+          "source": "AI타임스 (2026.07)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212175"
+        },
+        {
+          "company": "KT / 초개인화 에이전트",
+          "title": "KT, 연내 초개인화 AI 에이전트 상용화…\"품질·안정성 차별화\"",
+          "summary": "KT가 이용자별 맥락을 반영하는 초개인화 AI 에이전트를 연내 상용화한다고 밝혔다. 개인화 추천이 검색·챗봇을 넘어 에이전트 형태로 확장되면서, 유저 임베딩·실시간 피처 처리·품질 평가 같은 추천시스템 DS의 핵심 역량이 통신·플랫폼 업계 전반에서 수요가 늘고 있음을 보여준다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260617130027"
+        },
+        {
+          "company": "오픈AI·앤트로픽 / 생태계",
+          "title": "\"공짜 AI 쓰세요\"…오픈AI·앤트로픽, 스타트업 쟁탈전 본격화",
+          "summary": "오픈AI와 앤트로픽이 실리콘밸리 스타트업을 상대로 무료 컴퓨팅 크레딧, 토큰 할인, 모델 조기 접근권을 대거 제공하며 고객 확보 경쟁에 나섰다. LLM 인프라 비용 구조가 빠르게 바뀌면서 스타트업의 AI 제품 실험 문턱이 낮아지는 흐름으로, DS 채용 시장에서도 LLM 응용 경험의 가치가 계속 커지는 배경이다.",
+          "source": "ZDNet Korea (2026.07)",
+          "url": "https://zdnet.co.kr/view/?no=20260708094228"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "앤트로픽 / 백그라운드 에이전트",
+          "title": "앤트로픽, '클로드 코워크' 모바일·웹으로 확장…\"기기 꺼져도 백그라운드 자동화\"",
+          "summary": "앤트로픽이 에이전트 업무 환경 '클로드 코워크'를 모바일과 웹으로 확장했다. 기기가 꺼져 있어도 백그라운드에서 작업이 이어지는 자동화가 핵심으로, 에이전트가 세션 단위 도구를 넘어 상시 실행되는 업무 인프라로 진화하는 흐름을 보여준다. 장기 실행 에이전트의 상태 관리·모니터링 등 AgentOps 관점에서 주목할 변화다.",
+          "source": "AI타임스 (2026.07)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212530"
+        },
+        {
+          "company": "LG CNS / AgentOps",
+          "title": "\"구축도 어려운데 운영·비용 관리까지\"…LG CNS가 제시한 AI에이전트 해법",
+          "summary": "LG CNS가 기업 AI 에이전트의 구축 이후 운영·비용 관리 문제에 대한 해법을 제시했다. 에이전트 도입이 늘면서 품질 모니터링, 토큰 비용 최적화, 거버넌스 등 운영 단계 과제가 부상하고 있다는 진단으로, RAG·에이전트를 실서비스로 유지하는 AgentOps 역량이 채용 요건으로 굳어지는 흐름과 맞닿아 있다.",
+          "source": "ZDNet Korea (2026.05)",
+          "url": "https://zdnet.co.kr/view/?no=20260527142844"
+        }
+      ]
+    }
+  ]
+}
