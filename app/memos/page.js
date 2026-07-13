@@ -72,28 +72,45 @@ export default async function MemosPage() {
         <p className="empty-note">아직 저장된 메모가 없습니다.</p>
       )}
 
-      {Object.entries(groups).map(([date, items]) => (
-        <div className="archive-month" key={date}>
-          <h3 className="archive-month-title">{date}</h3>
-          <ul className="memo-list">
-            {items.map((m) => {
-              const l = labelFor(m.memo_key);
-              return (
-                <li className="memo-item" key={m.id}>
+      {Object.entries(groups).map(([date, items]) => {
+        // 같은 페이지(memo_key)의 메모들은 한 카드로 합쳐 보여준다
+        const byKey = {};
+        items.forEach((m) => {
+          (byKey[m.memo_key] = byKey[m.memo_key] || []).push(m);
+        });
+        const cards = Object.values(byKey)
+          .map((ms) => {
+            const sorted = ms
+              .slice()
+              .sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+            return {
+              key: sorted[0].memo_key,
+              label: labelFor(sorted[0].memo_key),
+              text: sorted.map((x) => x.content).join("\n"),
+              latest: sorted[sorted.length - 1].created_at,
+            };
+          })
+          .sort((a, b) => new Date(b.latest) - new Date(a.latest));
+        return (
+          <div className="archive-month" key={date}>
+            <h3 className="archive-month-title">{date}</h3>
+            <ul className="memo-list">
+              {cards.map((c) => (
+                <li className="memo-item" key={c.key}>
                   <div className="memo-src">
-                    {l.icon} {l.src}
-                    {l.sub ? ` · ${l.sub}` : ""}
+                    {c.label.icon} {c.label.src}
+                    {c.label.sub ? ` · ${c.label.sub}` : ""}
                   </div>
-                  <div className="memo-text">{m.content}</div>
+                  <div className="memo-text">{c.text}</div>
                   <div className="memo-meta">
-                    <time>{kstTime(m.created_at)}</time>
+                    <time>{kstTime(c.latest)}</time>
                   </div>
                 </li>
-              );
-            })}
-          </ul>
-        </div>
-      ))}
+              ))}
+            </ul>
+          </div>
+        );
+      })}
     </>
   );
 }
