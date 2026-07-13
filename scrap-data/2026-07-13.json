@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-13",
+  "title": "테크/AI 스크랩 (Data Scientist)",
+  "generated_at": "2026-07-13T18:20:00+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "테크/AI",
+      "items": [
+        {
+          "company": "오픈AI·앤트로픽",
+          "title": "\"최고 모델이 공짜\"…오픈AI·앤트로픽이 무료 토큰 경쟁에 나선 이유",
+          "summary": "오픈AI와 앤트로픽이 Y콤비네이터 참여 스타트업들에 수십억원 규모의 토큰 크레딧을 제공하는 경쟁에 들어갔다. 샘 알트먼은 169개 스타트업에 최대 200만달러 규모 크레딧을 주고 지분을 받는 투자를 제안했다. 프론티어 모델 기업들이 초기 스타트업 생태계 선점을 위해 '무료' 카드를 꺼낸 것이다.",
+          "source": "AI타임스 (2026.07)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212534"
+        },
+        {
+          "company": "산업 동향",
+          "title": "中, AI 제조혁명 세계 1위…한국 공장도 'AI 없인 안 된다'",
+          "summary": "중국이 AI 기반 제조혁신에서 세계 1위로 평가받으며 한국 제조업에도 AI 전환 압박이 커지고 있다. 공장 단위의 AI 도입이 선택이 아닌 생존 조건이 되면서, 제조 현장 데이터 분석·최적화 수요가 늘고 있다.",
+          "source": "EBN (2026.07)",
+          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1716006"
+        },
+        {
+          "company": "글로벌 AI 시장",
+          "title": "오픈AI와 구글의 굴욕…오픈라우터 상위 모델, 미국은 앤트로픽만 남았다",
+          "summary": "오픈라우터 플랫폼의 주간 토큰 사용량이 1년 새 2조에서 45조로 20배 이상 폭증한 가운데, 최다 호출 상위 10개 모델에서 GPT와 제미나이가 사라지고 딥시크·미니맥스 등 중국 모델이 85%를 차지했다. 미국 모델 중에는 앤트로픽 클로드만 남아 오픈소스·가격 경쟁력 중심의 시장 재편이 뚜렷해졌다.",
+          "source": "오마이뉴스 (2026.07)",
+          "url": "https://www.ohmynews.com/NWS_Web/Series/series_premium_pg.aspx?CNTN_CD=A0003250512&PAGE_CD=N0002&CMPT_CD=M0147"
+        }
+      ]
+    },
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "파업에도 '멀쩡한 카톡'의 역설…하반기 넘긴 카카오, 셈법 꼬인 노사",
+          "summary": "창사 첫 파업에도 카카오톡·페이 등 핵심 서비스가 정상 운영되면서 노조의 협상 지렛대가 약해지는 역설이 나타나고 있다. 노사 갈등이 하반기로 넘어가며 카카오톡 중심의 AI 플랫폼 전환 일정에도 부담이 커졌다.",
+          "source": "이투데이 (2026.07)",
+          "url": "https://www.etoday.co.kr/news/view/2599624"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "CJ올리브영, AI로 외국인 쇼핑 돕는다…상품 추천·통역 지원",
+          "summary": "CJ올리브영이 매장에 'AI 쇼핑 어시스턴트'를 도입했다. 키오스크에서 AI 아바타와 대화하며 상품 설명·재고·매장 내 위치를 확인하고, 피부 특성·선호 기반 개인화 추천을 8개 국어로 제공한다. 오프라인 매장 데이터와 추천 모델의 결합 사례로 주목된다.",
+          "source": "ZDNet Korea (2026.07)",
+          "url": "https://zdnet.co.kr/view/?no=20260708102003"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "New on Netflix July 2026 — MLB 홈런더비 생중계·하트스토퍼 피날레",
+          "summary": "넷플릭스가 7월 라인업을 공개했다. '에놀라 홈즈 3'와 '하트스토퍼 포에버'(7/17) 등 오리지널과 함께 2026 MLB 홈런더비를 생중계하며 라이브 스포츠를 확대한다. 콘텐츠 유형 다변화는 개인화 추천·시청 데이터 분석 영역의 확장으로 이어진다.",
+          "source": "Netflix Tudum 공식 (2026.07)",
+          "url": "https://www.netflix.com/tudum/articles/new-on-netflix"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "채용 시장",
+          "title": "무신사·카카오페이증권 등 연합 'AX 인재전쟁' 해커톤에 5000명 지원",
+          "summary": "무신사·카카오페이증권·채널코퍼레이션·삼일PwC 등 6개사가 참여하는 채용 연계 서바이벌 해커톤 'AX 인재전쟁' 예선에 5000명이 몰렸다. 스펙 대신 AI를 활용한 현업 문제 해결 역량만으로 평가하며, 본선은 7월 18일 열린다. 데이터 직군 채용 방식이 실전형으로 바뀌는 흐름을 보여준다.",
+          "source": "스포츠경향 (2026.07)",
+          "url": "https://sports.khan.co.kr/article/202607100218013/"
+        },
+        {
+          "company": "채용 시장",
+          "title": "\"AI가 채용 판 바꿨다\"…5년간 AI 산업 채용 공고 112% 증가",
+          "summary": "올해 1분기 'AI' 키워드 포함 채용 공고가 5년 전 대비 112% 증가했다. 주요 채용 직종은 AI/ML 엔지니어(17.9%), 데이터 사이언티스트(17.4%), AI 기획자(13.8%) 순으로, 데이터 사이언티스트 수요가 여전히 상위권을 지키고 있다.",
+          "source": "아웃소싱타임스 (2026.07)",
+          "url": "https://www.outsourcing.co.kr/news/articleView.html?idxno=202449"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "앤트로픽",
+          "title": "앤트로픽, 오픈AI 이어 클로드에 '자율 목표' 기능 추가",
+          "summary": "앤트로픽이 클로드에 사용자가 설정한 목표를 향해 에이전트가 스스로 작업을 이어가는 '자율 목표' 기능을 추가했다. 단발성 지시를 넘어 장기 목표 기반으로 동작하는 에이전트 경쟁이 오픈AI와 앤트로픽 양강 구도로 본격화되고 있다.",
+          "source": "AI타임스 (2026)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=210511"
+        },
+        {
+          "company": "기업 AI",
+          "title": "모델보다 플랫폼…기업 AI 에이전트 전략 바뀐다",
+          "summary": "기업들이 특정 LLM에 종속되지 않도록 프롬프트 최적화·RAG·파인튜닝을 조합하는 플랫폼 중심 전략으로 이동하고 있다. 한화는 코파일럿 스튜디오 기반 사내 에이전트로 보고서 작성·규제 검토를 자동화했고, NHN클라우드는 모델 교체에도 데이터 연동 구조가 유지되는 에이전트 구축 플랫폼을 공개했다.",
+          "source": "ZDNet Korea (2026.06)",
+          "url": "https://zdnet.co.kr/view/?no=20260604140425"
+        }
+      ]
+    }
+  ]
+}
