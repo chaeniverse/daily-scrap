@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-15",
+  "title": "테크/AI 스크랩 (Data Scientist)",
+  "generated_at": "2026-07-15T10:17:22+09:00",
+  "tracked_jobs": [
+    {
+      "company": "카카오",
+      "role": "Data Scientist (경력)"
+    },
+    {
+      "company": "CJ올리브영",
+      "role": "Data Scientist (AI 추천)"
+    },
+    {
+      "company": "넷플릭스 (Netflix)",
+      "role": "Data Scientist / Personalization (Korea·US)"
+    }
+  ],
+  "sections": [
+    {
+      "category": "테크/AI",
+      "items": [
+        {
+          "company": "오픈AI",
+          "title": "[미국 특징주] 오픈AI 첫 하드웨어는 '이동형 스피커'…AI 동반자 노린다",
+          "summary": "오픈AI가 첫 하드웨어로 화면 없는 이동형 스마트 스피커를 개발 중인 것으로 알려졌습니다. GPT-Live·카메라·센서·배터리를 탑재해 집안을 이동하며 사용자 맞춤형 AI 동반자 역할을 하도록 설계됐고, 조니 아이브 등 애플 출신 인력을 영입해 2027년 출시를 목표로 합니다. 애플과의 영업비밀 소송 등 AI 홈 기기 경쟁 구도도 함께 짚습니다.",
+          "source": "뉴스핌(2026.7)",
+          "url": "https://www.newspim.com/news/view/20260715000037"
+        },
+        {
+          "company": "앤트로픽",
+          "title": "\"한국어 쓰는 클로드, 더 다정하다\"…앤트로픽, 언어·모델별 가치 분석 공개",
+          "summary": "앤트로픽이 14일 '모델과 언어에 따른 클로드의 가치 표현' 연구를 공개했습니다. 한국어 대화에서는 글로벌 평균 대비 사용자 감정에 공감하는 '따뜻함'과 '수용성'이 가장 두드러지는 것으로 나타났습니다. 언어권별 AI 정렬·평가 데이터를 다루는 데이터 사이언티스트에게 흥미로운 대규모 분석 사례입니다.",
+          "source": "AI타임스(2026.7)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212765"
+        },
+        {
+          "company": "NIA",
+          "title": "NIA, 국정과제 'AI 고속도로 구축' 속도…기술 상용화 기반 마련",
+          "summary": "NIA와 과기정통부가 14일 'Hyper-AI 네트워크 기반조성' 사업 착수보고회를 열었습니다. 5G-SA·AI-RAN 기반 시범망 위에서 용접·도장·순찰 로봇 등 실시간 판단이 필요한 피지컬 AI 서비스를 실증합니다. 초저지연 대용량 통신을 AI로 지능화하는 차세대 네트워크 국책 사업입니다.",
+          "source": "시사저널(2026.7)",
+          "url": "https://www.sisajournal.com/news/articleView.html?idxno=379797"
+        }
+      ]
+    },
+    {
+      "category": "회사 뉴스",
+      "items": [
+        {
+          "company": "카카오",
+          "title": "'모두의 AI' 경쟁에 네카오·통신사·스타트업 총출동…\"다음달 결과 나온다\"",
+          "summary": "전 국민 무료 범용 AI 챗봇을 만드는 정부 '모두의 AI' 공모에 카카오가 LG유플러스와 함께 참여를 공식화했습니다. 네이버·SKT·KT도 참여를 검토 중이며 사업자 선정은 다음달 완료됩니다. 선정 시 카카오톡 기반 전국민 AI 서비스 데이터가 카카오 AI 조직의 핵심 과제가 될 전망입니다.",
+          "source": "이투데이(2026.7)",
+          "url": "https://www.etoday.co.kr/news/view/2603562"
+        },
+        {
+          "company": "CJ올리브영",
+          "title": "CJ올리브영, 신상품 전용관 '올영신상' 신설…신생 브랜드 성장 기회 넓힌다",
+          "summary": "올리브영이 앱 내 신상품 전용관 '올영신상'을 열었습니다. 최근 3개월 내 출시 상품 300여 개를 큐레이션하는 '신상 리와인드', '신상 캘린더' 등으로 구성되며 사전 운영 기간 입점 신상품 주문액이 35% 늘었습니다. 신상품 발굴·추천 큐레이션 로직은 AI 추천 직무와 직결되는 영역입니다.",
+          "source": "디지털데일리(2026.6)",
+          "url": "https://www.ddaily.co.kr/page/view/2026061909231295343"
+        },
+        {
+          "company": "넷플릭스 (Netflix)",
+          "title": "Quarterback Season 3: Jayden Daniels, Baker Mayfield, Cam Ward, and Joe Flacco (공식)",
+          "summary": "넷플릭스 스포츠 다큐 '쿼터백' 시즌3가 7월 14일 전 편 공개됐습니다. 제이든 대니얼스, 베이커 메이필드, 캠 워드, 조 플래코 등 2025 NFL 시즌 쿼터백 4인의 시즌을 밀착 취재했습니다. 스포츠 다큐 프랜차이즈는 넷플릭스 개인화·시청 데이터 전략의 주요 축입니다.",
+          "source": "Netflix Tudum(2026.7)",
+          "url": "https://www.netflix.com/tudum/articles/quarterback-season-3-players-release-date"
+        }
+      ]
+    },
+    {
+      "category": "직무 / 기술 트렌드 (Data Scientist)",
+      "items": [
+        {
+          "company": "CIO Korea",
+          "title": "칼럼 | 데이터 관리 방식이 달라진다···2026년 '뜨는 5가지, 지는 5가지'",
+          "summary": "단절된 데이터 사일로, 수작업 처리, 정적인 대시보드가 지고 AI 기반 자동화·실시간 데이터 제품화가 뜬다는 진단입니다. AI가 데이터 관리의 성숙을 압박하면서 데이터 조직의 우선순위가 재편되고 있다고 분석합니다. DS 직무에서 요구되는 데이터 인프라 감각을 점검하기 좋은 칼럼입니다.",
+          "source": "CIO Korea(2026)",
+          "url": "https://www.cio.com/article/4118454/%EC%B9%BC%EB%9F%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B4%80%EB%A6%AC-%EB%B0%A9%EC%8B%9D%EC%9D%B4-%EB%8B%AC%EB%9D%BC%EC%A7%84%EB%8B%A4%C2%B7%C2%B7%C2%B72026%EB%85%84-%EB%9C%A8%EB%8A%94-5%EA%B0%80.html"
+        },
+        {
+          "company": "CIO Korea",
+          "title": "2026년 디지털 트랜스포메이션, 더하기보다 빼기가 성패 가른다",
+          "summary": "PoC를 무한정 늘리기보다 검증된 AI 활용처에 집중하는 '빼기' 전략이 2026년 DX 성패를 가른다는 분석입니다. AI가 실제 운영 단계에 진입하면서 비즈니스 가치 측정과 확장이 기술 조직의 핵심 과제로 부상했습니다. 모델 성능보다 운영·측정 역량이 중요해지는 흐름은 DS 커리어 방향에도 시사점이 있습니다.",
+          "source": "CIO Korea(2026)",
+          "url": "https://www.cio.com/article/4119634/2026%EB%85%84-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A9%94%EC%9D%B4%EC%85%98-%EB%8D%94%ED%95%98%EA%B8%B0%EB%B3%B4%EB%8B%A4-%EB%B9%BC%EA%B8%B0%EA%B0%80-%EC%84%B1%ED%8C%A8.html"
+        }
+      ]
+    },
+    {
+      "category": "RAG · 에이전트",
+      "items": [
+        {
+          "company": "베이글코드",
+          "title": "베이글코드 \"전직원 1인 1 AI 에이전트 업무 환경 구축\"",
+          "summary": "모바일 게임사 베이글코드가 전사 1인 1 AI 에이전트 인프라 구축을 완료했다고 14일 밝혔습니다. 게임 개발·라이브 운영·퍼블리싱 전반의 협업을 팀 단위 에이전트 체계로 확장합니다. 국내 기업의 전사 에이전트 도입이 실험을 넘어 표준 업무 환경으로 넘어가는 사례입니다.",
+          "source": "이데일리(2026.7)",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03329206645514520"
+        },
+        {
+          "company": "지란지교소프트",
+          "title": "[현장] 지란지교소프트, \"AI 시대 핵심은 안전\"…3사 통합으로 보안·데이터·AI 결집",
+          "summary": "지란지교소프트가 14일 미디어데이에서 통합 법인 출범과 기업용 AI 에이전트 '오피스 에이전트'를 공개했습니다. 메일·메신저·문서·일정 등 비정형 데이터를 이해하고 사용자 권한에 따라 필요한 정보만 제공하는 것이 특징입니다. 권한 기반 검색·응답 설계는 엔터프라이즈 RAG의 핵심 이슈입니다.",
+          "source": "ZDNet Korea(2026.7)",
+          "url": "https://zdnet.co.kr/view/?no=20260714123001"
+        }
+      ]
+    }
+  ]
+}
