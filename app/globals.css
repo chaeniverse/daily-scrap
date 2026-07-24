@@ -674,3 +674,11 @@ a.scrap-t:hover {
     font-size: 19px;
   }
 }
+
+/* 정치 탭 설명 문구 */
+.page-desc {
+  margin: 4px 0 14px;
+  color: var(--muted, #6b7280);
+  font-size: 0.92rem;
+  line-height: 1.4;
+}

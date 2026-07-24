@@ -32,6 +32,13 @@ const TILES = [
     subtitle: "영화·음악·드라마·스포츠 화제 뉴스",
   },
   {
+    key: "정치",
+    href: "/politics",
+    emoji: "🏛️",
+    title: "정치",
+    subtitle: "국내·해외 정치 + 미국/해외 유학·학계 정책(비자·연구비·대학)",
+  },
+  {
     key: "내 메모",
     href: "/memos",
     emoji: "🧷",
@@ -45,7 +52,7 @@ export default function Home() {
     <>
       <section className="home-intro">
         <h1>🗞️ 채를 위한 데일리 스크랩</h1>
-        <p>매일 갱신되는 투자 브리핑 · 금융상품 가이드 · 테크/AI · 문화/엔터</p>
+        <p>매일 갱신되는 투자 브리핑 · 금융상품 가이드 · 테크/AI · 문화/엔터 · 정치</p>
       </section>
 
       <div className="tile-grid">
